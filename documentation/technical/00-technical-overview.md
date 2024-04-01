@@ -3,6 +3,7 @@ User sets up the node via a desktop (Linux, MacOS, Windows) and receives optiona
 <a href="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png"><img src="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png" alt="Interaction Overview Diagram" width="300" height="auto"></a><br>
 [Interaction Overview Diagram](https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png)
 
+<br>
 
 ## Launcher
 The Stereum Launcher GUI is developed using [Vue.js](https://vuejs.org/) for the frontend, which is a JavaScript framework.
@@ -15,12 +16,14 @@ see also:
 - [Release Management](Release-Management)
 - get the builds here: https://github.com/stereum-dev/ethereum-node/releases
 
+
 #### SSH/login: 
 The Launcher connects via SSH to a remote host, see how it works here: [SSH](SSH)
 
 Using ssh protocol the Launcher will login into your remote host with the credentials you provided in the login-screen. Then being logged in, it runs commands only users would run, e. g.:
 - Setup of a node: Write service configuration files according to user input ([more info](Stereum-Ansible-Roles#setup))
 - Open SSH ports: Make Grafana, etc. easily accessible to the user
+
 
 #### automated-setup:
 when logged-in and connected via ssh to your remote-host, stereum-launcher, configures your remote-System based on the choices you made in the installer-menu of the launcher-gui.
@@ -33,6 +36,8 @@ In Order to do that fully automated, the launcher uses [ansible](https://www.ans
     - on Linux: ~/.config/stereum-launcher/logs/main.log
     - on macOS: ~/Library/Logs/stereum-launcher/main.log
     - on Windows: %USERPROFILE%\AppData\Roaming\stereum-launcher\logs\main.log
+
+<br>
 
 ## Services (Docker container)
 Stereum uses [Docker](https://www.docker.com/) for managing the different services needed in order to run an Ethereum full node and more. Each of these services managed by Stereum got a configuration file in `/etc/stereum/services/` with all parameters needed to run this specific. This enables Stereum to stop and start services for [unattended updates](https://github.com/stereum-dev/ethereum-node/wiki/Unattended-Updates) & maintenance without the help of Launcher.
