@@ -1,0 +1,36 @@
+name: 🆕 New Documentation
+description: Propose new documents or sections to be added
+title: "[New-Docs]: "
+labels: ["new-docs"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting new documentation for our project!
+
+  - type: textarea
+    id: document-title
+    attributes:
+      label: Title of the document or section
+      description: A clear and concise title for the new document or section.
+      placeholder: "Title"
+    validations:
+      required: true
+
+  - type: textarea
+    id: document-description
+    attributes:
+      label: Description of the document
+      description: Detail what the new document or section should cover.
+      placeholder: "This document should cover..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: document-need
+    attributes:
+      label: Why is this needed?
+      description: Explain the necessity of this new document or section.
+      placeholder: "This is needed because..."
+    validations:
+      required: false

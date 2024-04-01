@@ -1,0 +1,36 @@
+name: 🛠️ Fix
+description: Report errors, typos, or inconsistencies in the documentation
+title: "[Fix]: "
+labels: ["fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve our documentation by reporting a fix!
+
+  - type: textarea
+    id: fix-description
+    attributes:
+      label: Describe the issue
+      description: A clear and concise description of what the error or issue is.
+      placeholder: "I found an issue where..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix-location
+    attributes:
+      label: Location of the issue
+      description: Please provide the location (e.g., URL, page number) of the issue in the documentation.
+      placeholder: "The issue can be found in..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-correction
+    attributes:
+      label: Suggested Correction
+      description: If possible, suggest how this issue should be corrected.
+      placeholder: "I suggest changing it to..."
+    validations:
+      required: false

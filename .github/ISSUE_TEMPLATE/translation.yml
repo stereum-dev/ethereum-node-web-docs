@@ -1,0 +1,36 @@
+name: 🌍 Translation
+description: Contribute or suggest translations for the documentation
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to our documentation's translation efforts!
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: Specify the language for the translation.
+      placeholder: "e.g., Spanish, French, German"
+    validations:
+      required: true
+
+  - type: textarea
+    id: translation-details
+    attributes:
+      label: Translation Details
+      description: Describe the translation work to be done or the specific sections/pages that need translation.
+      placeholder: "I would like to translate the following sections..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional context or information related to the translation.
+      placeholder: "Additional details..."
+    validations:
+      required: false
