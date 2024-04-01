@@ -1,0 +1,57 @@
+name: 💼 Add Issue to Project Task Board
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  track_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get project data
+        env:
+          GH_TOKEN: ${{ secrets.PUSH_TO_PROJECT }}
+        run: |
+          gh api graphql -f query='
+            query($owner: String!, $repo: String!) {
+              repository(owner: $owner, name: $repo) {
+                projectV2(number: 24) {
+                  id
+                  fields(first: 20) {
+                    nodes {
+                      ... on ProjectV2Field {
+                        id
+                        name
+                      }
+                      ... on ProjectV2SingleSelectField {
+                        id
+                        name
+                        options {
+                          id
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }' -f owner=${{ github.repository_owner }} -f repo=${{ github.event.repository.name }} > project_data.json
+          echo "PROJECT_ID=$(jq -r '.data.repository.projectV2.id' project_data.json)" >> $GITHUB_ENV
+          echo "STATUS_FIELD_ID=$(jq -r '.data.repository.projectV2.fields.nodes[] | select(.name == \"Status\") | .id' project_data.json)" >> $GITHUB_ENV
+          echo "BACKLOG_OPTION_ID=$(jq -r '.data.repository.projectV2.fields.nodes[] | select(.name == \"Status\") | .options[] | select(.name == \"BackLog\") | .id' project_data.json)" >> $GITHUB_ENV
+    
+      - name: Add issue to project
+        env:
+          GH_TOKEN: ${{ secrets.PUSH_TO_PROJECT }}
+          ISSUE_ID: ${{ github.event.issue.node_id }}
+        run: |
+          project_item_id=$(gh api graphql -f query='
+            mutation($project: ID!, $issue: ID!) {
+              addProjectV2ItemById(input: {projectId: $project, contentId: $issue}) {
+                item {
+                  id
+                }
+              }
+            }' -f project=$PROJECT_ID -f issue=$ISSUE_ID --jq '.data.addProjectV2ItemById.item.id')
+          echo "PROJECT_ITEM_ID=$project_item_id" >> $GITHUB_ENV

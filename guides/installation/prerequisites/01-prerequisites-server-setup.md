@@ -1,0 +1,8 @@
+
+
+
+## OS Setup 
+
+
+
+## Further Configs
