@@ -1,4 +1,4 @@
-#  🍄 Stereum Ethereum Node - DOCUMENTATION
+#  🍄 Stereum - DOCUMENTATION
 
 ![image](https://github.com/stereum-dev/ethereum-node-web-docs/assets/82385103/8274913a-0021-4f51-b3aa-1dbe6427b305)
 
