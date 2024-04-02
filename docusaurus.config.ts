@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Stereum - Ethereum Node Setup & Manager',
+  tagline: 'Become a Node Runner',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -59,9 +59,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/stereum-social-card.png',
     navbar: {
-      title: 'My Site',
+      title: 'Stereum',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Stereum Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -72,7 +72,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/stereum-dev/ethereum-node/',
           label: 'GitHub',
           position: 'right',
         },
@@ -94,16 +94,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Website',
+              href: 'https://stereum.net/',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/DzAwgnSXtB',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/stereumdev',
             },
           ],
         },
@@ -111,17 +111,13 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/stereum-dev/ethereum-node/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Stereum, Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
