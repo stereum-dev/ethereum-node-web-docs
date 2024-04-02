@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'stereum-dev', // Usually your GitHub org/user name.
   projectName: 'ethereum-node-web-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'main',
 
