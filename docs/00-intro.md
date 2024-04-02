@@ -1,3 +1,3 @@
-# Introduction
+# Welcome
 
-## Welcome to the Stereum Documentation
+## Thank you for using the Stereum Documentation!
