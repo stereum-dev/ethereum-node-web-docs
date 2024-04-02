@@ -1,4 +1,4 @@
-### SSV (Secret Shared Validator)
+# SSV (Secret Shared Validator)
 
 **Definition:** Secret Shared Validator (SSV) refers to a type of Distributed Validator Technology (DVT) that enables the splitting of a validator key among multiple nodes, known as operators. This setup allows for the distributed control and operation of an Ethereum validator across multiple non-trusting nodes, enhancing security and fault tolerance.
 

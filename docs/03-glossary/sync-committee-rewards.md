@@ -1,4 +1,4 @@
-### Sync Committee Rewards
+# Sync Committee Rewards
 
 **Definition:** Sync Committee Rewards are given to validators who are selected to be part of a sync committee. These committees assist light clients in staying up-to-date with the state of the blockchain, ensuring the network remains accessible and secure for all participants.
 

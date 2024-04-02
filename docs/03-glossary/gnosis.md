@@ -1,4 +1,4 @@
-### Gnosis 
+# Gnosis 
 
 **Definition:** The Gnosis Network, formerly known as the xDai Chain, is a blockchain platform designed for fast, inexpensive, and secure transactions. It operates as a separate layer on top of the Ethereum mainnet and supports staking mechanisms where participants can stake tokens to secure the network and validate transactions. Staking on the Gnosis Network involves running validator nodes or delegating tokens to validators to earn rewards. This process helps maintain the network's integrity and performance by incentivizing participants to act in the best interest of the ecosystem.
 

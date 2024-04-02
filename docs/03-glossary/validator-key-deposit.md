@@ -1,4 +1,4 @@
-### Validator Key Deposit
+# Validator Key Deposit
 
 **Definition:** A key deposit in the context of Ethereum & Gnosis staking refers to the initial amount of ETH / GNO required to activate a validator on the respective blockchain. This deposit is made to the staking deposit contract and is associated with the validator's public key, enabling the network to recognize and activate the validator. The deposit serves as a stake in the network, signifying the validator's commitment and serving as collateral that can be slashed in case of malicious actions.
 

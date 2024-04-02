@@ -1,4 +1,4 @@
-### Ethereum Staking Penalties
+# Ethereum Staking Penalties
 
 **Definition:** Ethereum Staking Penalties are the consequences that validators on the Ethereum Proof of Stake (PoS) network face for actions that negatively affect the network's integrity and security. These penalties are designed to discourage malicious or negligent behavior and ensure the stability of the blockchain. Penalties can range from minor reductions in staking rewards for being offline ([inactivity leaks](#inactivity-leak)) to significant portions of the staked ETH [being slashed](#slashing) for serious offenses like double signing or similar attacks.
 

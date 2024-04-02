@@ -1,4 +1,4 @@
-### Inactivity Leak
+# Inactivity Leak
 
 **Definition:** Inactivity Leak is a mechanism designed to prevent network stagnation due to a large number of validators being offline. If the network fails to finalize blocks for an extended period, an inactivity leak gradually reduces the staked ETH of all inactive validators. This penalty encourages validators to remain online and active, as continued inactivity leads to increasing losses of staked assets over time. The mechanism ensures the network remains resilient and can recover even if a significant proportion of validators goes offline.
 

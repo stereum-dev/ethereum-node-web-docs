@@ -1,4 +1,4 @@
-### Non-Finality
+# Non-Finality
 
 **Definition:** Non-Finality in blockchain refers to the state where transactions or blocks are not yet confirmed as irreversible and permanent. In blockchain systems, finality means that once a block is added to the chain, it cannot be altered or removed. Non-Finality occurs in situations where there is uncertainty about a block's permanence, potentially due to network forks, consensus failures, or other disruptions. This state can lead to risks such as double-spending, where the same digital asset could be spent more than once.
 

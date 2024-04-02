@@ -1,4 +1,4 @@
-### Sharding
+# Sharding
 
 **Definition:** Sharding is a scalability strategy used in blockchain technology to enhance the processing capacity of a network. It involves dividing the network's database into smaller, more manageable pieces, or "shards," each of which can process transactions and store data independently. This parallel processing capability significantly increases the network's throughput and efficiency. 
 

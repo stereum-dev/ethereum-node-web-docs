@@ -1,4 +1,4 @@
-### Partial Withdrawals
+# Partial Withdrawals
 
 **Definition:** Partial withdrawals in the Ethereum blockchain allow validators to transfer the ETH rewards that exceed the 32 ETH staking requirement from their validator's account on the Beacon Chain to the execution layer. This process is automatic and does not require active management by the validator or node operator, nor does it incur gas fees.
 

@@ -1,4 +1,4 @@
-### Epoch
+# Epoch
 
 **Definition:** An epoch is a specific period during which a set of activities and processes are completed on the network. It is a unit of time measured in slots, with one epoch in Ethereum consisting of 32 slots & in Gnosis of 16 slots. During an epoch, validator nodes perform actions such as proposing and attesting to blocks, and at the end of each epoch, the network's protocol processes these activities to update the state of the blockchain, including validator rewards and penalties.
 

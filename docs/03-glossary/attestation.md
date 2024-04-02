@@ -1,4 +1,5 @@
-### Attestation
+# Attestation
+
 **Definition:** Attestation is the process by which validators verify and vouch for the correctness of a block. Every epoch, validators propose attestations that represent their view of the blockchain state, including the most recent justified block and the first block in the current epoch. Attestations are critical for the network to reach consensus and finalize blocks.
 
 **Category:** Staking

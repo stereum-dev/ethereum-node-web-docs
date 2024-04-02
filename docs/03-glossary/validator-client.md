@@ -1,4 +1,4 @@
-### Validator Client
+# Validator Client
 
 **Definition:** A Validator Client refers to software that enables a node to participate in the network's consensus mechanism by proposing and attesting to blocks. Validators are crucial for the security and functionality of the blockchain, as they are responsible for signing verified transactions and newly created blocks in exchange for staking rewards.
 

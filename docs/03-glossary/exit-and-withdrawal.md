@@ -1,4 +1,4 @@
-### Exit and Withdraw 
+# Exit and Withdraw 
 **Definition:** Withdrawals refer to the process of transferring ETH from a validator's account on Ethereum's consensus layer (the Beacon Chain) to the execution layer, where it can be freely transacted. There are two types of withdrawals in the Ethereum blockchain: [partial](#partial-withdrawals) and [full](#full-withdrawals).
 
 **Category:** Staking

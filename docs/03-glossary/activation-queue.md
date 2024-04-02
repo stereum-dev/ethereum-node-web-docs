@@ -1,4 +1,4 @@
-### Activation Queue
+# Activation Queue
 **Definition:** The Activation Queue is a waiting period for validators before they become active and participate in network consensus. This queue is necessary to manage the influx of new validators and maintain network stability, governed by the churn limit which dictates the number of validators activated in each epoch.
 
 **Category:** Staking

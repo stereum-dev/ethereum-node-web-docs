@@ -1,4 +1,4 @@
-### Full Withdrawals
+# Full Withdrawals
 
 **Definition:** Full withdrawals on the Ethereum blockchain involve the process of completely exiting a validator from its duties on the Beacon Chain, allowing for the transfer of the entire staked balance (32 ETH and any accrued rewards) to the execution layer. This is initiated by the validator through a "voluntary exit" action, which does not require gas fees but permanently ends their participation in validation.
 

@@ -1,4 +1,4 @@
-### Slashing
+# Slashing
 
 **Definition:** Slashing is a punitive mechanism in Proof of Stake (PoS) networks like Ethereum 2.0, designed to maintain network security and integrity. Validators staking their ETH can be slashed, meaning they will lose a portion of their staked ETH as a penalty for actions that harm the network's operation and are removed from the validator set, preventing them from participating further in the consensus process. This can occur due to malicious actions like double signing (using the same validator key with two different nodes) or due to negligence, when migrating.
 

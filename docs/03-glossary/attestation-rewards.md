@@ -1,4 +1,4 @@
-### Attestation Rewards
+# Attestation Rewards
 
 **Definition:** Attestation Rewards are earned by validators for successfully attesting to the validity of a block. Validators vote on the correctness of blocks, and these attestations contribute to the consensus process, helping to secure the network and ensure the integrity of the blockchain.
 

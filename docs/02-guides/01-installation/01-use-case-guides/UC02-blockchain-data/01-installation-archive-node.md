@@ -1,4 +1,2 @@
-# How to use the RPC Endpoint of your Node
+# Archive Node
 
-
-## Metamask 

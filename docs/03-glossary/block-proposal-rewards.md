@@ -1,4 +1,4 @@
-### Block Proposal Rewards
+# Block Proposal Rewards
 
 **Definition:** Block Proposal Rewards are earned by validators when they successfully propose a new block that is added to the blockchain. These rewards compensate validators for the computational effort and costs associated with creating and broadcasting new blocks, which are critical for the ongoing operation and security of the network.
 

@@ -1,4 +1,4 @@
-### Fork
+# Fork
 
 **Definition:** In the context of blockchain technology, a fork refers to a divergence in the blockchain network that results in two or more separate paths, or "branches." Forks can occur naturally when two miners discover a block at the same time, leading to temporary forks. They are resolved when subsequent blocks are added, making one branch longer and thus the accepted chain. Forks can also be deliberate, as part of protocol upgrades or to correct security issues. These deliberate forks are classified into two types: soft forks, which are backward-compatible changes, and hard forks, which are not backward-compatible and require all nodes to upgrade to the new protocol.
 
