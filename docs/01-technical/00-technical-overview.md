@@ -2,7 +2,7 @@
 
 User sets up the node via a desktop (Linux, MacOS, Windows) and receives optionally alerts on a smartphone (iOS, Android).
 
-<img href="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png"></img><img src="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png" alt="Interaction Overview Diagram" width="300" height="auto"></img><br/>
+<img href="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png"></img><img src="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png" alt="Interaction Overview Diagram"></img><br/>
 [Interaction Overview Diagram](https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png)
 
 <br/>
