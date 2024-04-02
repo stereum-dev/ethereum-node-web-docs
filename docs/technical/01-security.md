@@ -1,3 +1,5 @@
+# Security
+
 ## Launcher
 
 The launcher, operating on your local machine, does not retain any secret data. Each time you log in to your node, you must always input your password. In the case of using SSH keys, the launcher only stores the path to your private key, not the key itself.

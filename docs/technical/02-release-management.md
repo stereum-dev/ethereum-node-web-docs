@@ -1,3 +1,5 @@
+# Release Management
+
 ## Creating a new Draft Release
 The recommended way of creating a new Draft Release is with git. A commit Message with the tag [DRAFT] in the commit message will result in the following:
 
