@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Stereum - Ethereum Node Setup & Manager',
-  tagline: 'Become a Node Runner',
+  title: 'Stereum',
+  tagline: 'Ethereum Node Setup & Manager',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
