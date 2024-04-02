@@ -55,11 +55,13 @@ $ GIT_USER=<Your GitHub username> npm run deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-
+<br>
 
 ## Contributing
 
 We welcome contributions to our documentation! See our [Contributing Guide](link-to-contributing-guide) for details on how to propose changes.
+
+<br>
 
 ## Support
 
