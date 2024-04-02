@@ -8,15 +8,15 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com',
+  url: 'https://github.com/stereum-dev/ethereum-node/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ethereum-node-web-docs/',
+  baseUrl: '/stereum/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'stereum-dev', // Usually your GitHub org/user name.
-  projectName: 'ethereum-node-web-docs', // Usually your repo name.
+  projectName: 'ethereum-node', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -57,7 +57,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/stereum-social-card.png',
     navbar: {
       title: 'My Site',
       logo: {
