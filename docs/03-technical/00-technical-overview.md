@@ -1,4 +1,4 @@
-# Technical Overview
+# Overview
 
 User sets up the node via a desktop (Linux, MacOS, Windows) and receives optionally alerts on a smartphone (iOS, Android).
 
