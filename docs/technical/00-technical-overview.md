@@ -1,9 +1,9 @@
 User sets up the node via a desktop (Linux, MacOS, Windows) and receives optionally alerts on a smartphone (iOS, Android).
 
-<a href="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png"><img src="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png" alt="Interaction Overview Diagram" width="300" height="auto"></a><br>
+<img href="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png"></img><img src="https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png" alt="Interaction Overview Diagram" width="300" height="auto"></img><br/>
 [Interaction Overview Diagram](https://user-images.githubusercontent.com/54934211/178484451-ea7835cc-823a-4e72-a0a2-e6373bb3a9ea.png)
 
-<br>
+<br/>
 
 ## Launcher
 The Stereum Launcher GUI is developed using [Vue.js](https://vuejs.org/) for the frontend, which is a JavaScript framework.
@@ -37,7 +37,7 @@ In Order to do that fully automated, the launcher uses [ansible](https://www.ans
     - on macOS: ~/Library/Logs/stereum-launcher/main.log
     - on Windows: %USERPROFILE%\AppData\Roaming\stereum-launcher\logs\main.log
 
-<br>
+<br/>
 
 ## Services (Docker container)
 Stereum uses [Docker](https://www.docker.com/) for managing the different services needed in order to run an Ethereum full node and more. Each of these services managed by Stereum got a configuration file in `/etc/stereum/services/` with all parameters needed to run this specific. This enables Stereum to stop and start services for [unattended updates](https://github.com/stereum-dev/ethereum-node/wiki/Unattended-Updates) & maintenance without the help of Launcher.

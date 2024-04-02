@@ -5,7 +5,7 @@ The recommended way of creating a new Draft Release is with git. A commit Messag
 2. Application will be built for defined platforms ubuntu, windows and macos
 3. Windows application will be signed with organisations digicert signing certificate using keylocker
 4. MacOS application will be signed and notarized using the organisations Apple Account
-5. A tag ${version}-draft will be set in git
+5. A tag version-draft will be set in git
 6. Draft Release with Version (from package.json) will be created
 7. Artifacts will be uploaded to the draft Release
 
