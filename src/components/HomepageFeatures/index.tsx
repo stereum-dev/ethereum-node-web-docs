@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy Node Setup',
-    Svg: require('@site/static/img/undraw_docusaurus_setup.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Stereum simplifies the process of setting up Ethereum nodes, providing a streamlined and user-friendly interface to get your node up and running with minimal hassle.
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Robust Monitoring Tools',
-    Svg: require('@site/static/img/undraw_docusaurus_monitoring.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Keep track of your node's performance and status with Stereum's comprehensive monitoring tools. Stay informed and proactive in maintaining node health and efficiency.
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Flexible Configuration',
-    Svg: require('@site/static/img/undraw_docusaurus_configuration.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Customize and configure your node to match your specific requirements. Stereum offers a variety of configuration options to tailor your node's operation.
