@@ -1,6 +1,7 @@
-# Step by Step - MEV boosted Ethereum Solo Staking Guide
+# Gnosis Solo Staking Guide
 
-## Part 1 / 4 | Ethereum Node Setup
+
+## Part 1 / 4 | Gnosis Node Setup
 
 
 ## Part 2 / 4 | Validator Key Generation 

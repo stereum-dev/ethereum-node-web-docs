@@ -1,4 +1,4 @@
-# Step by Step - Ethereum Solo Staking Guide
+# MEV boosted Ethereum Solo Staking Guide
 
 ## Part 1 / 4 | Ethereum Node Setup
 

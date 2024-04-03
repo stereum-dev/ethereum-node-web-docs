@@ -1,7 +1,6 @@
-# Step by Step - Gnosis Solo Staking Guide
+# Ethereum Solo Staking Guide
 
-
-## Part 1 / 4 | Gnosis Node Setup
+## Part 1 / 4 | Ethereum Node Setup
 
 
 ## Part 2 / 4 | Validator Key Generation 
