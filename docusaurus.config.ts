@@ -117,7 +117,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Stereum, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Stereum`,
     },
     prism: {
       theme: prismThemes.github,

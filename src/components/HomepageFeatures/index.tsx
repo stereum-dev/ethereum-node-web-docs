@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Easy Node Setup',
+    Svg: require('@site/static/img/undraw_stereum_setup.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Stereum simplifies the process of setting up Ethereum nodes, providing a streamlined and user-friendly interface to get your node up and running with minimal hassle.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Robust Monitoring Tools',
+    Svg: require('@site/static/img/undraw_stereum_monitoring.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Keep track of your node's performance and status with Stereum's comprehensive monitoring tools. Stay informed and proactive in maintaining node health and efficiency.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Flexible Configuration',
+    Svg: require('@site/static/img/undraw_stereum_configuration.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Customize and configure your node to match your specific requirements. Stereum offers a variety of configuration options to tailor your node's operation.
       </>
     ),
   },

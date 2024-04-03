@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            🍄 Stereum Documentation 🍄
+           🍄 Open the Stereum Documentation 🍄
           </Link>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - ${siteConfig.tagline} - Documentation`}
+      description="Explore the official Stereum Documentation for comprehensive guides, how-to articles, and resources on setting up and managing Ethereum nodes using Stereum. Ideal for both beginners and experienced users seeking to enhance their Ethereum node operations.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
