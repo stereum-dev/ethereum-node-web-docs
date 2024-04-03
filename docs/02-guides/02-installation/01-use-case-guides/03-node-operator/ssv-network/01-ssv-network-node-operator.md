@@ -1,4 +1,4 @@
-# Step by Step SSV Network Operator Guide
+# SSV Network Node Operator Guide
 
 ## Part 1 / 2 | SSV Network Node Setup
 

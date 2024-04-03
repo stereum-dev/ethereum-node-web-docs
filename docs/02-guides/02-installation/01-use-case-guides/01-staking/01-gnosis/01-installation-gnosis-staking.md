@@ -1,4 +1,4 @@
-# Step by Step GNOSIS Solo Staking Guide
+# Step by Step - Gnosis Solo Staking Guide
 
 
 ## Part 1 / 4 | Gnosis Node Setup
