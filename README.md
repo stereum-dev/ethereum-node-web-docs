@@ -9,7 +9,7 @@ STATUS: WORK IN PROGRESS!
 Welcome to the Stereum documentation repository! 
 
 [Stereum](https://github.com/stereum-dev/ethereum-node) is a tool for easily setting up and managing different kind of Ethereum (and Gnosis) nodes.
-This repo contains guides, tutorials, and other resources for Stereum Node Setup & Manager hosted on [stereum.net](https://stereum.net/) to help you get started and effectively use Stereum.  
+This repo contains guides, tutorials, and other resources for Stereum Node Setup & Manager to help you get started and effectively use Stereum.  
 
 <br>
 
