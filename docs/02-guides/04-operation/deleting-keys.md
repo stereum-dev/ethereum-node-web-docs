@@ -1,4 +1,4 @@
-# Deleting Keys
+# Delete Keys
 
 1. Delete keys on node
 2. Wait 2 epochs

@@ -1,4 +1,4 @@
-# Updating a Node
+# Update a Node
 
 ## 1. Check compatibility
 - Read release notes of Stereum update available

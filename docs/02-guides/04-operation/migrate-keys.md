@@ -1,4 +1,4 @@
-# Move your Keys!
+# Migrate Keys
 
 1. Remove keys using Stereum Staking tab
    - Save slashing db
