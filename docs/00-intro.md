@@ -8,10 +8,11 @@ Whether you're new to Stereum or looking to dive deeper into its features, you'r
 
 ### What You Will Find Here
 
-- **Getting Started**: Quickstart instructions to get your node up and running with minimal setup.
-- **Detailed Setup Guides**: Step-by-step tutorials on configuring your node for different use-cases.
+- **Technical Details**: Dive into the technicalities of Stereum.
+- **Detailed Setup Guides**: Step-by-step tutorials for straightforward node setup and operations.
 - **Best Practices**: Tips and tricks for optimal node performance and security.
 - **Troubleshooting**: Solutions to common issues and how to seek further assistance.
+- **Glossary**: Get familiar with common terms and concepts in Ethereum and Stereum with our glossary.
 - **Community Contributions**: Learn from the wealth of knowledge shared by our community.
 
 Stereum simplifies the complexity of running Ethereum nodes, making it accessible for everyone from hobbyists to professional validators. With Stereum, you maintain full control over your node, with support for various clients and detailed metrics for monitoring.
