@@ -24,10 +24,6 @@ import TabItem from '@theme/TabItem';
 
 **Note**: If you were invited to join the upcoming Lido x Obol Testnet, you will receive an ENR. Ensure you have this for the following steps.
 
-1. **Verify Node Sync**: Ensure the node is fully synced by checking logs or the synchronization widget.
-2. **Navigate to Header**: Click the Obol logo in the header.
-3. **Import ENR**: Import the ENR you received from Lido into the node.
-
 <Tabs
   defaultValue="participant"
   values={[
@@ -37,31 +33,37 @@ import TabItem from '@theme/TabItem';
 
 <TabItem value="participant">
 
-1. **Access Launchpad**: Open the Obol Holesky launchpad in the browser via the button in the modal. Leave the modal open.
-2. **Connect Wallet**: Connect your cryptocurrency wallet.
-3. **View Dashboard**: Click "Dashboards" in the header.
-4. **Find Cluster**: Locate the cluster you were invited to.
-5. **Sign Message**: Sign the message.
-6. **Wait for Completion**: Wait for all participants to also sign the message.
+1. **Verify Node Sync**: Ensure the node is fully synced by checking logs or the synchronization widget.
+2. **Navigate to Header**: Click the Obol logo in the header.
+3. **Import ENR**: Import the ENR you received from Lido into the node.
+4. **Access Launchpad**: Open the Obol Holesky launchpad in the browser via the button in the modal. Leave the modal open.
+5. **Connect Wallet**: Connect your cryptocurrency wallet.
+6. **View Dashboard**: Click "Dashboards" in the header.
+7. **Find Cluster**: Locate the cluster you were invited to.
+8. **Sign Message**: Sign the message.
+9. **Wait for Completion**: Wait for all participants to also sign the message.
 
 </TabItem>
 
 <TabItem value="clusterLeader">
-      
-1. **Open Launchpad**: Access the Obol Holesky launchpad via the button in the modal. Keep the modal open in Stereum.
-2. **Connect Wallet**: Connect your cryptocurrency wallet.
-3. **Initiate Cluster Creation**: Scroll down, under "Create a Distributed Validator" select "Create a cluster with a group" and click "Get Started".
-4. **Confirm Risks**: Read through the advisory pages and confirm risks until you reach the "Configure Cluster" page.    
-5. **Enter Node Details**: Provide details such as cluster name, size, address, and ENS.
-6. **Skip Validator Selection**: Skip the number of validator selection.
-7. **Input ENR**: Paste the ENR from the Stereum Obol Modal into the "What is your Charon Client's ENR?" section.
-8. **Configure Withdrawals**: For withdrawal configuration, click "Use my address" for both principal address and fee recipient.
-9. **Create Configuration**: Click "Create Cluster Configuration" and proceed to the "Confirm Configuration" page.
-10. **Confirm Details**: Double-check all details, click the checkbox under "Confirm Details" and proceed with "Confirm & Sign".
-11. **Sign Request**: Sign the signature request with your connected wallet.
-12. **Success Confirmation**: You should see a cluster success message. Click "Dashboards" in the header to proceed.
-13. **View Cluster**: See the created cluster by clicking it to view its current status.
-14. **Wait for Signatures**: Wait for all participants to also sign the message.
+
+1. **Verify Node Sync**: Ensure the node is fully synced by checking logs or the synchronization widget.
+2. **Navigate to Header**: Click the Obol logo in the header.
+3. **Import ENR**: Import the ENR you received from Lido into the node.    
+4. **Open Launchpad**: Access the Obol Holesky launchpad via the button in the modal. Keep the modal open in Stereum.
+5. **Connect Wallet**: Connect your cryptocurrency wallet.
+6. **Initiate Cluster Creation**: Scroll down, under "Create a Distributed Validator" select "Create a cluster with a group" and click "Get Started".
+7. **Confirm Risks**: Read through the advisory pages and confirm risks until you reach the "Configure Cluster" page.    
+8. **Enter Node Details**: Provide details such as cluster name, size, address, and ENS.
+9. **Skip Validator Selection**: Skip the number of validator selection.
+10. **Input ENR**: Paste the ENR from the Stereum Obol Modal into the "What is your Charon Client's ENR?" section.
+11. **Configure Withdrawals**: For withdrawal configuration, click "Use my address" for both principal address and fee recipient.
+12. **Create Configuration**: Click "Create Cluster Configuration" and proceed to the "Confirm Configuration" page.
+13. **Confirm Details**: Double-check all details, click the checkbox under "Confirm Details" and proceed with "Confirm & Sign".
+14. **Sign Request**: Sign the signature request with your connected wallet.
+15. **Success Confirmation**: You should see a cluster success message. Click "Dashboards" in the header to proceed.
+16. **View Cluster**: See the created cluster by clicking it to view its current status.
+17. **Wait for Signatures**: Wait for all participants to also sign the message.
 
 </TabItem>
 
