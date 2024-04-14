@@ -1,10 +1,10 @@
 # Lido OBOL-SDVTM Guide 
 
-> Note: This guide requires a running Ubuntu 22.04 server instance with passwordless sudo activated on the Node server machine. 
-
 
 ## Part 1 - Node Installation
 
-1) 
+1. Start up Stereum & log into your server
+2. Select "One Click Installation"
+3. Next 
 
 
