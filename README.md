@@ -4,7 +4,7 @@
 ![image](https://github.com/stereum-dev/ethereum-node/assets/82385103/91bacf27-f9ff-486d-a02b-69676c082c0b)
 
 
-STATUS: WORK IN PROGRESS!
+# STATUS: WORK IN PROGRESS!**
 
 Welcome to the Stereum documentation repository! 
 
