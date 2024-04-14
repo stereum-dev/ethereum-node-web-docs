@@ -37,6 +37,9 @@ During the One-Click Installation process, you will choose your use case based o
 - **ARM**: Specialized installation for ARM architecture hardware, typically used for lower-power devices.
   - [ARM Architecture Guide](./02-installation/01-use-case-guides/01-staking/00-ethereum/02-ethereum-solo-staking-on-ARM.md)
 
+- **Lido x Obol SDVTM (Testnet)**: Take part in the testnet & install a node that combines Lido and Obol technologies to decentralize the Staking Pool's Node Operator set. 
+  - [Lido x Obol SDVTM Guide](./02-installation/03-node-operator/01-lido/01-lido-sdvtm-obol.md)
+
 
 After selecting your use case and pressing `Start`, a random client selection will be taken to serve your use case.
 
