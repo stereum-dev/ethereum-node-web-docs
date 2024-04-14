@@ -12,11 +12,34 @@ The One Click Installation process for Stereum is designed to facilitate a seaml
   - Gnosis Mainnet
   - Holesky Testnet
 - Choose the network that aligns with your intended use case. The choice of network will determine the available presets and configuration settings for your node setup.
+## One-Click Installation Options
+
+During the One-Click Installation process, you will choose your use case based on the available options:
+
+- **Staking (Ethereum)**: Set up a node designed for Ethereum staking purposes.
+  - [Ethereum Solo Staking Guide](./02-installation/01-use-case-guides/01-staking/00-ethereum/01-ethereum-solo-staking.md)
+
+- **Staking (Gnosis)**: Set up a node designed for Gnosis staking purposes. 
+  - [Gnosis Staking Guide](./02-installation/01-use-case-guides/01-staking/01-gnosis/01-gnosis-staking.md)
+
+- **MEV-Boosted Staking (Ethereum)**: Configure a Ethereum node optimized for maximizing MEV (Miner Extractable Value) opportunities.
+  - [MEV-Boosted Guide](./02-installation/01-use-case-guides/01-staking/00-ethereum/03-ethereum-solo-staking-with-mev-boost.md)
+
+- **SSV Network**: Deploy an SSV (Secret Shared Validators) network node.
+  - [SSV Network Guide](./02-installation/03-node-operator/01-ssv-network/01-ssv-network-node-operator.md)
+
+- **Archive**: Create an archive node that maintains the complete history of the Ethereum blockchain.
+  - [Archive Node Guide](./02-installation/02-blockchain-data/01-installation-archive-node.md)
+
+- **Obol**: Install a node to participate in the Obol Network, designed for distributed validator technology.
+  - [Obol Network Guide](./02-installation/01-use-case-guides/03-node-operator/01-lido/01-lido-sdvtn-obol.md)
+
+- **ARM**: Specialized installation for ARM architecture hardware, typically used for lower-power devices.
+  - [ARM Architecture Guide](./02-installation/01-use-case-guides/01-staking/00-ethereum/02-ethereum-solo-staking-on-ARM.md)
 
 
-## Choosing the Installation Type
+After selecting your use case and pressing `Start`, a random client selection will be taken to serve your use case.
 
-- Once the network is selected, you can choose your use case by selecting from a variety of presented options, each tailored for different operational roles such as staking, archive nodes, or specific network services.
 
 ## Installation Customization
 
