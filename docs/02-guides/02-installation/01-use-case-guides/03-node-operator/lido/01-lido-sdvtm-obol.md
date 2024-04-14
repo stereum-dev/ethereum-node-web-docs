@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Lido OBOL-SDVTM Guide
 
 
@@ -25,12 +28,30 @@
 2. **Navigate to Header**: Click the Obol logo in the header.
 3. **Import ENR**: Import the ENR you received from Lido into the node.
 
-#### Cluster Coordinator
+<Tabs
+  defaultValue="participant"
+  values={[
+    {label: 'Cluster Leader', value: 'clusterLeader'},
+    {label: 'Participant', value: 'participant'},
+  ]}>
 
+<TabItem value="participant">
+
+1. **Access Launchpad**: Open the Obol Holesky launchpad in the browser via the button in the modal. Leave the modal open.
+2. **Connect Wallet**: Connect your cryptocurrency wallet.
+3. **View Dashboard**: Click "Dashboards" in the header.
+4. **Find Cluster**: Locate the cluster you were invited to.
+5. **Sign Message**: Sign the message.
+6. **Wait for Completion**: Wait for all participants to also sign the message.
+
+</TabItem>
+
+<TabItem value="clusterLeader">
+      
 1. **Open Launchpad**: Access the Obol Holesky launchpad via the button in the modal. Keep the modal open in Stereum.
 2. **Connect Wallet**: Connect your cryptocurrency wallet.
 3. **Initiate Cluster Creation**: Scroll down, under "Create a Distributed Validator" select "Create a cluster with a group" and click "Get Started".
-4. **Confirm Risks**: Read through the advisory pages and confirm risks until you reach the "Configure Cluster" page.
+4. **Confirm Risks**: Read through the advisory pages and confirm risks until you reach the "Configure Cluster" page.    
 5. **Enter Node Details**: Provide details such as cluster name, size, address, and ENS.
 6. **Skip Validator Selection**: Skip the number of validator selection.
 7. **Input ENR**: Paste the ENR from the Stereum Obol Modal into the "What is your Charon Client's ENR?" section.
@@ -42,14 +63,10 @@
 13. **View Cluster**: See the created cluster by clicking it to view its current status.
 14. **Wait for Signatures**: Wait for all participants to also sign the message.
 
-#### Cluster Participant
+</TabItem>
 
-1. **Access Launchpad**: Open the Obol Holesky launchpad in the browser via the button in the modal. Leave the modal open.
-2. **Connect Wallet**: Connect your cryptocurrency wallet.
-3. **View Dashboard**: Click "Dashboards" in the header.
-4. **Find Cluster**: Locate the cluster you were invited to.
-5. **Sign Message**: Sign the message.
-6. **Wait for Completion**: Wait for all participants to also sign the message.
+</Tabs>
+
 
 ### Part 3 - DKG Ceremony
 

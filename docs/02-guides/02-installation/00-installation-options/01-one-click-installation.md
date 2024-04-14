@@ -12,6 +12,7 @@ The One Click Installation process for Stereum is designed to facilitate a seaml
   - Gnosis Mainnet
   - Holesky Testnet
 - Choose the network that aligns with your intended use case. The choice of network will determine the available presets and configuration settings for your node setup.
+
 ## One-Click Installation Options
 
 During the One-Click Installation process, you will choose your use case based on the available options:
