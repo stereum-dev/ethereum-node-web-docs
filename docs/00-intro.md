@@ -1,3 +1,7 @@
+---
+title: Welcome
+---
+
 # Welcome to the Documentation...
 
 ![Stereum Ethereum Node Setup & Manager](../static/img/stereum-social-card.png)
