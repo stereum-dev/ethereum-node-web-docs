@@ -7,7 +7,7 @@ This guide outlines the necessary hardware requirements for setting up a Stereum
 The hardware requirements will change over time as network upgrades are implemented and will heavily rely on the configuration of the node.
 
 ### Operating Systems Supported:
-- **Ubuntu 22.04**
+- Ubuntu 22.04
 
 ### CPU
 - **Minimum**: 8 cores

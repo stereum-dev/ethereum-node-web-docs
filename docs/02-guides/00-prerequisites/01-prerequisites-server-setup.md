@@ -5,7 +5,7 @@ import TabItem from '@theme/TabItem';
 
 ## Ubuntu Setup
 
-### Create a bootable USB Stick
+### Part 1: Create a bootable USB Stick
 
 <Tabs
   defaultValue="windows"
