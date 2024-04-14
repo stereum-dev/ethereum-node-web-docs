@@ -1,4 +1,4 @@
-# Welcome to the Stereum Node Setup & Manager Documentation
+# Welcome to the Stereum Documentation
 
 ![Stereum Ethereum Node Setup & Manager](../static/img/stereum-social-card.png)
 
