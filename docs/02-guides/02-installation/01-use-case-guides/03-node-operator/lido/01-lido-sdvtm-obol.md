@@ -4,7 +4,7 @@ import TabItem from '@theme/TabItem';
 # Lido OBOL-SDVTM Guide
 
 
-## Node Setup
+## Lido SDVTM Node Operator Setup
 
 ### Part 1 - Node Installation
 
