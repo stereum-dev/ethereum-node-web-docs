@@ -1,7 +1,7 @@
 #  🍄 Stereum - Web Documentation
 
 
-![image](https://github.com/stereum-dev/ethereum-node/assets/82385103/43703351-bee7-4f18-883c-6bc2d8a5e8ef)
+![image](https://github.com/stereum-dev/ethereum-node/assets/82385103/91bacf27-f9ff-486d-a02b-69676c082c0b)
 
 
 STATUS: WORK IN PROGRESS!
