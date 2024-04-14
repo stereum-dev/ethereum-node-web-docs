@@ -2,7 +2,7 @@
 
 ![Stereum Ethereum Node Setup & Manager](../static/img/stereum-social-card.png)
 
-## ...and Thank You for choosing Stereum - Ethereum Node Setup & Manager
+## ...and thank you for choosing Stereum 🍄
 
 We're thrilled to have you onboard and are confident that Stereum will enhance your experience with Ethereum. This documentation is designed to provide you with all the necessary information to successfully utilize Stereum for managing Ethereum nodes.
 
