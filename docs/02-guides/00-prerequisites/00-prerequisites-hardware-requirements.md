@@ -1,11 +1,12 @@
 # Hardware Requirements for Stereum Ethereum Node Setup
 
-This guide outlines the necessary hardware requirements to set up a Stereum Ethereum staking node. The requirements are categorized into two sections: Node Server Hardware and Launcher Machine Hardware.
+This guide outlines the necessary hardware requirements for setting up a Stereum Ethereum staking node. The requirements are categorized into two sections: Node Server Hardware and Launcher Machine Hardware.
 
 ## Node Server Hardware Requirements
 
-### Operating Systems Supported:
+The hardware requirements will change over time as network upgrades are implemented and will heavily rely on the configuration of the node.
 
+### Operating Systems Supported:
 - **Ubuntu 22.04**
 
 ### CPU
@@ -15,10 +16,10 @@ This guide outlines the necessary hardware requirements to set up a Stereum Ethe
 A higher core count improves the node's ability to handle multiple threads and processes simultaneously, which is crucial for maintaining network connections and processing transactions efficiently.
 
 ### Storage
-- **Minimum**: 1 TB SSD
+- **Minimum**: 1 TB SSD for a staking full node
 - **Recommended**: 2 TB or more SSD
 
-Fast storage is critical for blockchain data, which grows continuously. SSDs are preferred for their quicker data access speeds, which enhance the overall performance of the node.
+Fast storage is critical for blockchain data, which grows continuously. **SSDs are mandatory** for their quicker data access speeds, which enhance the overall sync performance of the node. For those planning to run an archive node, which retains all historical state changes, it is important to note that this will require multiple terabytes of SSD storage, potentially exceeding 12 TB as the blockchain history grows.
 
 ### Memory
 - **Minimum**: 16 GB RAM
@@ -34,7 +35,7 @@ A faster internet connection ensures that the node stays consistently synced wit
 
 ## Launcher Machine Hardware Requirements
 
-The launcher is used to connect, install and manage the node. It is less demanding in terms of hardware and can be operated on standard consumer hardware.
+The launcher is used to connect, install, and manage the node. It is less demanding in terms of hardware and can be operated on standard consumer hardware.
 
 ### Operating Systems Supported:
 - Windows
@@ -47,4 +48,4 @@ The launcher is used to connect, install and manage the node. It is less demandi
 - Storage: 100 GB (HDD or SSD)
 - Network: Broadband internet connection with at least 5 Mbit/s
 
-While the launcher machine does not require high-performance hardware, ensuring it has a reliable internet connection and enough resources to run smoothly will facilitate easier management of the node setup.
+While the launcher machine does not require high-performance hardware, ensuring it has a reliable internet connection and sufficient resources to run smoothly will facilitate easier management of the node setup.
