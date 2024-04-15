@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 1. **Verify Node Sync**: Ensure the node is fully synced by checking logs or the synchronization widget.
 2. **Navigate to Header**: Click the Obol logo in the header.
 3. **Import ENR**: Import the ENR you received from Lido into the node.
-4. **Access Launchpad**: Open the Obol Holesky launchpad in the browser via the button in the modal. Leave the modal open.
+4. **Open Launchpad**: Open the Obol Holesky launchpad in the browser via the button in the modal. Leave the modal open.
 5. **Connect Wallet**: Connect your cryptocurrency wallet.
 6. **View Dashboard**: Click "Dashboards" in the header.
 7. **Find Cluster**: Locate the cluster you were invited to.
