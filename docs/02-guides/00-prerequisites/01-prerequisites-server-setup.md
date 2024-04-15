@@ -10,8 +10,8 @@ import TabItem from '@theme/TabItem';
 <Tabs
   defaultValue="windows"
   values={[
-    {label: 'macOS', value: 'mac'},
     {label: 'Windows', value: 'windows'},
+    {label: 'macOS', value: 'mac'},
     {label: 'Linux', value: 'linux'},
   ]}>
 
