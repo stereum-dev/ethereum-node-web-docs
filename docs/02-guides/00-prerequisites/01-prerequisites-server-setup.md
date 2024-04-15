@@ -39,22 +39,10 @@ import TabItem from '@theme/TabItem';
   5. Name your USB stick something memorable, select 'Mac OS Extended (Journaled)' as the format, and then click 'Erase' to start the process.
   6. Once the erasure is complete, close 'Disk Utility'.
   7. Open the 'Terminal' application, also found in the 'Utilities' folder.
-  8. Convert your downloaded ISO file to an IMG format by typing the following command in Terminal:
-     ```
-     hdiutil convert -format UDRW -o /path/to/your_new.img /path/to/downloaded.iso
-     ```
-     Replace '/path/to/your_new.img' and '/path/to/downloaded.iso' with the actual paths to where you want the new IMG file saved and where your downloaded ISO file is located.
+  8. Convert your downloaded ISO file to an IMG format by typing the following command in Terminal: `hdiutil convert -format UDRW -o /path/to/your_new.img /path/to/downloaded.iso`. Replace '/path/to/your_new.img' and '/path/to/downloaded.iso' with the actual paths to where you want the new IMG file saved and where your downloaded ISO file is located.
   9. Find the device identifier for your USB stick by typing `diskutil list` in Terminal.
-  10. Unmount your USB device with:
-     ```
-     diskutil unmountDisk /dev/diskN
-     ```
-     Replace 'diskN' with the identifier from step 9.
-  11. Write the IMG file to your USB stick with the following command:
-     ```
-     sudo dd if=/path/to/your_new.img of=/dev/rdiskN bs=1m
-     ```
-     Again, replace '/path/to/your_new.img' and '/dev/rdiskN' with the appropriate paths and identifiers.
+  10. Unmount your USB device with: `diskutil unmountDisk /dev/diskN`. Replace 'diskN' with the identifier from step 9.
+  11. Write the IMG file to your USB stick with the following command: `sudo dd if=/path/to/your_new.img of=/dev/rdiskN bs=1m`. Again, replace '/path/to/your_new.img' and '/dev/rdiskN' with the appropriate paths and identifiers.
   12. When the process is complete, you can remove your USB stick.
   13. Your bootable USB stick with Ubuntu Server is ready. Proceed to the next setup phase in Part 2 below.
 
