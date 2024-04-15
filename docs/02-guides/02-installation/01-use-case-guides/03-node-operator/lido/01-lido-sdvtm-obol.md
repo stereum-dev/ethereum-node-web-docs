@@ -1,7 +1,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Lido OBOL-SDVTM Guide
+# Lido x Obol - SDVTM Guide
 
 
 ## Lido SDVTM Node Operator Setup
