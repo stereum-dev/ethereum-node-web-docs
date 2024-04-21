@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Stereum',
   tagline: 'Ethereum Node Setup & Manager',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/branding/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://github.com/',
@@ -57,12 +57,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/stereum-social-card.png',
+    image: 'img/branding/stereum-social-card.png',
     navbar: {
       title: 'Stereum',
       logo: {
         alt: 'Stereum Logo',
-        src: 'img/logo.svg',
+        src: 'img/branding/logo.svg',
       },
       items: [
         {
