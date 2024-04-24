@@ -7,6 +7,7 @@ import TabItem from '@theme/TabItem';
 ## Lido SDVTM Node Operator Setup
 
 ### Prerequisities - Passwordless Sudo Setup
+
 1. Log into your server with the credentials created during setup.
 2. Run `sudo visudo` and add the following line under `includedir /etc/sudoers.d`: `<username> ALL=(ALL) NOPASSWD: ALL`. Replace `<username>` with your actual username.
 3. Verify your passwordless sudo setup by running `sudo -l`. If no password is requested, it's configured correctly and you are ready to use Stereum.
@@ -14,17 +15,19 @@ import TabItem from '@theme/TabItem';
 
 ### Part 1 - Node Installation
 
-1. **Launch Stereum**: Open the Stereum Launcher by clicking on its icon.
-2. **Log into Your Server**: Enter your credentials to log in.
-3. **Select Installation Option**: Choose the "One Click Installation" option.
-4. **Choose Network**: Select the "Holesky" network from the available options.
-5. **Select Preset**: Click on the preset icon that represents Lido OBOL-SDVTM and proceed to the next step.
-6. **Customize Configuration**: Make any necessary customizations to your node's configuration.
-7. **Review Configuration**: Carefully review your node's installed configuration to ensure everything is correct.
-8. **Begin Installation**: Initiate the installation process.
-9. **Installation Completion**: The installation is finished once all node components, except Obol, are active. This can be verified in the task manager, located at the bottom left of the Stereum launcher. The tasks for "Listing Validators" & "Remote Validators" are expected to fail, because as Obol Charon is not connected to the Validator Client yet.
-10. **Check Logs**: After installation, check the logs of the Execution, Consensus, and Validator Clients for any **persistent errors** or important messages. You can use the respective client "Log" command button in the Stereum Node Page to access the logs. A few minutes after startup, the logs should indicate that the node has begun syncing in the Consensus and/or Execution client.
-11. **Wait for Node Synchronization**: The node installation typically completes in a few minutes, at which point the sync process begins. This process is fully automated and requires no further input. Depending on your hardware, syncing can take several hours or more.
+
+1. **Download Stereum**: Visit stereum.com or the Stereum GitHub repository to download Stereum’s latest release.
+2. **Launch Stereum**: Open the Stereum Launcher by clicking on its icon.
+3. **Log into Your Server**: Enter your credentials to log in.
+4. **Select Installation Option**: Choose the "One Click Installation" option.
+5. **Choose Network**: Select the "Holesky" network from the available options.
+6. **Select Preset**: Click on the preset icon that represents Lido OBOL-SDVTM and proceed to the next step.
+7. **Customize Configuration**: After selecting the Lido OBOL-SDVTM preset, Stereum will provide you with an optimal obligatory default configuration - however, if you want to make further customizations regarding client selection and installation path, you can do so freely.
+8. **Review Configuration**: Carefully review your node's installed configuration to ensure everything is correct.
+9. **Begin Installation**: Initiate the installation process.
+10. **Installation Completion**: The installation is finished once all core node components, excluding Obol & the Lido related components, are active. This can be verified in the task manager, located at the bottom left of the Stereum launcher. The tasks for "Listing Validators" & "Remote Validators" are expected to fail, because Obol Charon is not connected to the Validator Client yet.
+11. **Check Logs**: After installation, check the logs of the Execution, Consensus, and Validator Clients for any **persistent errors** or important messages. You can use the respective client "Log" command button in the Stereum Node Page to access the logs. A few minutes after startup, the logs should indicate that the node has begun syncing in the Consensus and/or Execution client.
+12. **Wait for Node Synchronization**: The node installation typically completes in a few minutes, at which point the sync process begins. This process is fully automated and requires no further input. Depending on your hardware, syncing can take several hours or more.
 
 ### Part 2 - ENR Integration and Cluster Coordination
 
