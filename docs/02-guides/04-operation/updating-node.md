@@ -1,28 +1,23 @@
-# Update a Node
+### Update a Node
 
-## 1. Check compatibility
-- Read release notes of Stereum update available
-- Read release notes of all service updates available
+#### Comprehensive Update Process
 
-## 2. Update Stereum node
-- Open the Stereum Launcher to automatically receive Stereum Updates
-- Open the Update Panel to check for Stereum Node as well as various service updates
+##### Step 1: Compatibility Check
+- **Read Release Notes**: Before proceeding with updates, thoroughly read the release notes for Stereum's latest updates as well as those of any related services to ensure compatibility.
 
-## 3. Verify EL/CL/VC work properly
-- **Logs**
-- **Grafana**
-- **Stereum control tab**
+##### Step 2: Execute Update
+- **Launch Stereum Updater**: Start the Stereum Launcher, which will automatically check for and apply available updates.
+- **Check Update Panel**: Visit the Update Panel to look for updates for both the Stereum Node and its services.
 
-## 4. If staking node: monitor keys
-### Verify keys loaded again
-- Check for:
-  - Doppelgänger detection for clients
-  - Fast check: Same amount of keys
-  - Same keys
-- Check with:
-  - Stereum staking tab
-  - Validator client logs
+##### Step 3: Validation of Update
+- **Review Logs**: After updating, inspect the logs for the Execution, Consensus, and Validator Clients to check for any issues.
+- **Grafana Monitoring**: Use Grafana to monitor the performance and stability of your node post-update.
+- **Stereum Control Tab**: Confirm the functionality of all systems via the Stereum control tab.
 
-### Monitoring keys for a couple of epochs
-- On Stereum
-- On 3rd party source like beaconcha.in
+##### Step 4: Staking Node Key Monitoring
+- **Verify Key Reloading**:
+  - **Doppelgänger Detection**: Ensure that your clients' doppelgänger detection systems are functioning to avoid penalties.
+  - **Key Count and Integrity**: Confirm that the correct number of keys and the specific keys are reloaded and operational.
+- **Ongoing Monitoring**:
+  - **Using Stereum**: Regularly monitor the staking tab in Stereum for key activity.
+  - **Third-Party Verification**: Use a reliable third-party source like beaconcha.in to ensure keys are performing correctly over the next few epochs.
