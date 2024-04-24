@@ -1,5 +1,9 @@
 # Gnosis Solo Staking Guide
 
+### Prerequisities 
+
+1. [Passwordless Sudo Setup](./docs/02-guides/00-prerequisites/01-prerequisites-server-setup.md)
+
 
 ## Part 1 / 4 | Gnosis Node Setup
 
