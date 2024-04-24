@@ -5,7 +5,7 @@ import TabItem from '@theme/TabItem';
 
 ## Ubuntu Setup
 
-### Part 1: Create a Bootable USB Stick {#create-bootable-usb}
+### Create a Bootable USB Stick {#create-bootable-usb}
 
 <Tabs
   defaultValue="windows"
@@ -55,7 +55,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 
-### Part 2: Booting from USB and Installing Ubuntu {#booting-and-installing}
+### Booting from USB and Installing Ubuntu {#booting-and-installing}
 
 1. With the machine off, insert your bootable USB.
 2. Turn on the machine and immediately press the F11/F12 or Delete key to open the boot menu.
@@ -66,10 +66,4 @@ import TabItem from '@theme/TabItem';
 7. Verify that the displayed storage matches your server's specs before continuing with the installation.
 8. Complete the forms for server name, username, and password. Skip Ubuntu Pro upgrade and additional snaps installation.
 9. After installation, select 'Reboot Now'. Once rebooted, use `hostname -i` to note your server's IP address.
-
-### Part 3: Mandatory Configuration {#mandatory-configuration}
-
-1. Log into your server with the credentials created during setup.
-2. Run `sudo visudo` and add the following line under `includedir /etc/sudoers.d`: `<username> ALL=(ALL) NOPASSWD: ALL`. Replace `<username>` with your actual username.
-3. Verify your passwordless sudo setup by running `sudo -l`. If no password is requested, it's configured correctly and you are ready to use Stereum.
 
