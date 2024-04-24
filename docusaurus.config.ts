@@ -95,7 +95,7 @@ const config: Config = {
           items: [
             {
               label: 'Website',
-              href: 'https://stereum.net/',
+              href: 'https://stereum.com/',
             },
             {
               label: 'Discord',

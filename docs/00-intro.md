@@ -27,7 +27,9 @@ Stereum simplifies the complexity of running Ethereum nodes, making it accessibl
 
 The Stereum project thrives on community feedback and contributions. We welcome you to join our efforts in making Ethereum more decentralized and accessible:
 
-- **Stereum Website**: [stereum.net](https://stereum.net/)
+- **Stereum Websites**: 
+  - [stereum.com](https://stereum.com/) 
+  - [stereum.net](https://stereum.net/)
 - **GitHub Repository**: [stereum-dev/ethereum-node](https://github.com/stereum-dev/ethereum-node)
 - **Discord Server**: [Stereum Server](https://discord.gg/DzAwgnSXtB)
 
