@@ -1,7 +1,7 @@
 #  🍄 Stereum - Web Documentation
 
 
-![image](https://github.com/stereum-dev/ethereum-node/assets/82385103/91bacf27-f9ff-486d-a02b-69676c082c0b)
+![image](static\img\branding\stereum-social-card.png)
 
 
 # STATUS: WORK IN PROGRESS!**
