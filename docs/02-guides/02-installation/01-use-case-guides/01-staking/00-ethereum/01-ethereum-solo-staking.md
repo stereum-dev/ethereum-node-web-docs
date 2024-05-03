@@ -9,7 +9,7 @@ To begin setting up your server for crypto transactions with Stereum, start by l
 ### Step 2
 Once logged in, navigate to the server configuration dashboard. Look for the "One Click Installation" option which is recommended for beginners due to its simplicity and automated setup process. Select this to initiate the installation of your node with minimal hassle.
 
-![Step 2 Screenshot](../../../../../../static/img/screenshots/2.png)
+![Step 2 Screenshot](../../../../../../static/screenshots/2.png)
 
 ### Step 3
 In the one-click installation section, choose your use case and network. For this guide, select the "Staking" option to participate in blockchain validation and earning rewards. From the network dropdown, pick an Ethereum testnet like Goerli or Holesky.
