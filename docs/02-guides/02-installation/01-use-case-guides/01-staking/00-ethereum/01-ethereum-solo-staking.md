@@ -227,19 +227,19 @@ Wait for the import process to complete. The interface will indicate when the va
 ### Step 44
 To set up block rewards, navigate to the "Node" tab and access the settings of your Validator Client.
 
-![Step 44 Screenshot](../../../../../../static/screenshots/43.png)
+![Step 44 Screenshot](../../../../../../static/screenshots/44.png)
 
 ### Step 45
 Find the "Default Fee Recipient" section and click the pencil icon to edit the address to which block rewards will be sent.
 
-![Step 45 Screenshot](../../../../../../static/screenshots/44.png)
+![Step 45 Screenshot](../../../../../../static/screenshots/45.png)
 
 ### Step 46
 After entering your chosen address, confirm and apply the changes by clicking "Confirm & Restart." Your Validator Client will restart to apply these settings. If it does not automatically restart, do it manually.
 
-![Step 46 Screenshot](../../../../../../static/screenshots/45.png)
+![Step 46 Screenshot](../../../../../../static/screenshots/46.png)
 
 ### Step 47
 Once your node is fully synchronized with the network and your validator key has been processed through the deposit queue, you will begin to perform attestation duties. This signals that you are actively participating in the network and can start earning rewards.
 
-![Step 47 Screenshot](../../../../../../static/screenshots/46.png)
+![Step 47 Screenshot](../../../../../../static/screenshots/47.png)
