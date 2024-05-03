@@ -8,5 +8,3 @@
 
 **External Resources:**
 - [Ethereum Nodes Explained](https://ethereum.org/en/nodes/) - A detailed guide on the roles and functions of Ethereum nodes in the network.
-C:\Users\asirb\work\ethereum-node-web-docs\static\screenshots
-static\screenshots\1.png
