@@ -4,7 +4,7 @@ title: Welcome
 
 # Welcome to the Documentation...
 
-![Stereum Ethereum Node Setup & Manager](../static/img/branding/stereum-social-card.png)
+![Stereum Ethereum Node Setup & Manager](../static/img/branding/stereum-social-card.png) 
 
 ## ...and thank you for choosing Stereum 🍄
 
