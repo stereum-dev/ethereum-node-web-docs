@@ -12,7 +12,7 @@ Once logged in, navigate to the server configuration dashboard. Look for the "On
 ![Step 2 Screenshot](../../../../../../static/screenshots/2.png)
 
 ### Step 3
-In the one-click installation section, choose your use case and network. For this guide, select the "Staking" option to participate in blockchain validation and earning rewards. From the network dropdown, pick an Ethereum testnet like Goerli or Holesky.
+In the one-click installation section, choose your use case and network. For this guide, select the "Staking" option to participate in blockchain validation and earning rewards. From the network dropdown, pick an Ethereum testnet like Holesky.
 
 ![Step 3 Screenshot](../../../../../../static/screenshots/3.png)
 
