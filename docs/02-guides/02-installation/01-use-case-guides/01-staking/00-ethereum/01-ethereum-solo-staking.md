@@ -12,7 +12,7 @@ Once logged in, navigate to the server configuration dashboard. Look for the "On
 ![Step 2 Screenshot](../../../../../../static/screenshots/2.png)
 
 ### Step 3
-In the one-click installation section, choose your use case and network. For this guide, select the "Staking" option to participate in blockchain validation and earning rewards. From the network dropdown, pick an Ethereum testnet like Goerli or Holesky.
+In the one-click installation section, choose your use case and network. For this guide, select the "Staking" option to participate in blockchain validation and earning rewards. From the network dropdown, pick an Ethereum testnet like Holesky.
 
 ![Step 3 Screenshot](../../../../../../static/screenshots/3.png)
 
@@ -49,7 +49,7 @@ On the "Control" page, keep an eye on the synchronization status of both blockch
 ## Part 2 / 4 | Validator Key Generation
 
 ### Step 10
-Navigate to the Ethereum Launchpad website [https://launchpad.ethereum.org](https://launchpad.ethereum.org), which is the official portal for becoming an Ethereum validator. You can visit either the general launchpad, the Holesky testnet, or the Goerli testnet launchpad based on your requirements. Click on "Become a Validator" to start the process of setting up and registering your node as a validator.
+Navigate to the Ethereum Launchpad website [https://launchpad.ethereum.org](https://launchpad.ethereum.org), which is the official portal for becoming an Ethereum validator. You can visit either the general launchpad or the Holesky testnet launchpad, based on your requirements. Click on "Become a Validator" to start the process of setting up and registering your node as a validator.
 
 ![Step 10 Screenshot](../../../../../../static/screenshots/10.png)
 
@@ -188,7 +188,7 @@ Click on "Send Deposit" to initiate the deposit of your ETH. Confirm the transac
 ![Step 36 Screenshot](../../../../../../static/screenshots/36.png)
 
 ### Step 37
-After the deposit, monitor the status of your validator key. It will join a queue before it is activated. To check the status, visit one of the provided beacon chain explorers (beaconcha.in, goerli.beaconcha.in, or holesky.beaconcha.in) and enter your validator public key to track the activation process.
+After the deposit, monitor the status of your validator key. It will join a queue before it is activated. To check the status, visit one of the provided beacon chain explorers (beaconcha.in, or holesky.beaconcha.in) and enter your validator public key to track the activation process.
 
 ![Step 37 Screenshot](../../../../../../static/screenshots/36_2.png)
 
