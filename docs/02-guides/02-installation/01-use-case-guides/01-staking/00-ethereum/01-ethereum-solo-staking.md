@@ -197,32 +197,32 @@ After the deposit, monitor the status of your validator key. It will join a queu
 ### Step 38
 Open the Stereum application and log into your server. Navigate to the "Staking" section. To import your validator key, click on the 'Click or Drag to Insert Key' area or simply drag and drop your validator key file onto it.
 
-![Step 38 Screenshot](../../../../../../static/screenshots/37.png)
+![Step 38 Screenshot](../../../../../../static/screenshots/38.png)
 
 ### Step 39
 Once you click or drag to insert the key, a file explorer will open. Navigate to the location of your validator key files, select them, and choose the validator client (like Lighthouse, Prysm, etc.) that you want to import your keys into. This is where you specify which client will manage your validator duties.
 
-![Step 39 Screenshot](../../../../../../static/screenshots/38.png)
+![Step 39 Screenshot](../../../../../../static/screenshots/39.png)
 
 ### Step 40
 A dialogue will appear asking if you want to import with a Slashing Protection Database. Choose "No" if you have not previously imported these keys into a different client or if this is your initial setup. Click "Import" to proceed with importing your validator key without the Slashing Protection Database. This will initiate the import process for your validator key into the client.
 
-![Step 40 Screenshot](../../../../../../static/screenshots/39.png)
+![Step 40 Screenshot](../../../../../../static/screenshots/40.png)
 
 ### Step 41
 Enter the password you created for your validator keys during their generation phase.
 
-![Step 41 Screenshot](../../../../../../static/screenshots/40.png)
+![Step 41 Screenshot](../../../../../../static/screenshots/41.png)
 
 ### Step 42
 After entering your password and confirming the action, wait for the Stereum system to import your validator keys. This process will integrate your keys with the client and prepare it for staking operations.
 
-![Step 42 Screenshot](../../../../../../static/screenshots/41.png)
+![Step 42 Screenshot](../../../../../../static/screenshots/42.png)
 
 ### Step 43
 Wait for the import process to complete. The interface will indicate when the validator key has been successfully imported into Stereum.
 
-![Step 43 Screenshot](../../../../../../static/screenshots/42.png)
+![Step 43 Screenshot](../../../../../../static/screenshots/43.png)
 
 ### Step 44
 To set up block rewards, navigate to the "Node" tab and access the settings of your Validator Client.

@@ -18,7 +18,7 @@ In the one-click installation section, choose your use case and network. For thi
 ![Step 3 Screenshot](../../../../../../static/screenshots/3_.png)
 
 ### Step 4
-Ensure you set the appropriate data path for your server by selecting the right storage volume. This step affects your node's performance and stability. For services, Geth is common for execution, and for consensus, any client works well. Set the installation directory, usually `/opt/stereum`, to keep your services well-organized for easy management.
+Ensure you set the appropriate data path for your server by selecting the right storage volume. This step affects your node's performance and stability. For consensus any client works well. Set the installation directory, usually `/opt/stereum`, to keep your services well-organized for easy management.
 
 ![Step 4 Screenshot](../../../../../../static/screenshots/4_.png)
 
@@ -196,44 +196,44 @@ Ensure Metamask wallet shows as connected on the launchpad site. Confirm your ne
 ### Step 37
 Click on "Send Deposit" to initiate the deposit of your ETH. Confirm the transaction in your MetaMask wallet. Ensure you have sufficient balance to cover the deposit and the associated gas fees. After reviewing the transaction details, click "Confirm" to proceed.
 
-![Step 37 Screenshot](../../../../../../static/screenshots/36.png)
+![Step 37 Screenshot](../../../../../../static/screenshots/36_2.png)
 
 ### Step 38
 After the deposit, monitor the status of your validator key. It will join a queue before it is activated. To check the status, visit one of the provided beacon chain explorers (beaconcha.in,, or holesky.beaconcha.in) and enter your validator public key to track the activation process.
 
-![Step 38 Screenshot](../../../../../../static/screenshots/36_2.png)
+![Step 38 Screenshot](../../../../../../static/screenshots/37.png)
 
 ## Part 4 / 4 | Validator Key Import & Further Configuration
 
 ### Step 39
 Open the Stereum application and log into your server. Navigate to the "Staking" section. To import your validator key, click on the 'Click or Drag to Insert Key' area or simply drag and drop your validator key file onto it.
 
-![Step 39 Screenshot](../../../../../../static/screenshots/37.png)
+![Step 39 Screenshot](../../../../../../static/screenshots/38.png)
 
 ### Step 40
 Once you click or drag to insert the key, a file explorer will open. Navigate to the location of your validator key files, select them, and choose the validator client (like Lighthouse, Prysm, etc.) that you want to import your keys into. This is where you specify which client will manage your validator duties.
 
-![Step 40 Screenshot](../../../../../../static/screenshots/38.png)
+![Step 40 Screenshot](../../../../../../static/screenshots/39_.png)
 
 ### Step 41
 A dialogue will appear asking if you want to import with a Slashing Protection Database. Choose "No" if you have not previously imported these keys into a different client or if this is your initial setup. Click "Import" to proceed with importing your validator key without the Slashing Protection Database. This will initiate the import process for your validator key into the client.
 
-![Step 41 Screenshot](../../../../../../static/screenshots/39.png)
+![Step 41 Screenshot](../../../../../../static/screenshots/40.png)
 
 ### Step 42
 Enter the password you created for your validator keys during their generation phase.
 
-![Step 42 Screenshot](../../../../../../static/screenshots/40.png)
+![Step 42 Screenshot](../../../../../../static/screenshots/41.png)
 
 ### Step 43
 After entering your password and confirming the action, wait for the Stereum system to import your validator keys. This process will integrate your keys with the client and prepare it for staking operations.
 
-![Step 43 Screenshot](../../../../../../static/screenshots/41.png)
+![Step 43 Screenshot](../../../../../../static/screenshots/42.png)
 
 ### Step 44
 Wait for the import process to complete. The interface will indicate when the validator key has been successfully imported into Stereum.
 
-![Step 44 Screenshot](../../../../../../static/screenshots/42.png)
+![Step 44 Screenshot](../../../../../../static/screenshots/43.png)
 
 ### Step 45
 To set up block rewards, navigate to the "Node" tab and access the settings of your Validator Client.
