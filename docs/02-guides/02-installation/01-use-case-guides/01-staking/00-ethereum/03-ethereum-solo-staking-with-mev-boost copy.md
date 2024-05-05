@@ -199,7 +199,7 @@ Click on "Send Deposit" to initiate the deposit of your ETH. Confirm the transac
 ![Step 37 Screenshot](../../../../../../static/screenshots/36.png)
 
 ### Step 38
-After the deposit, monitor the status of your validator key. It will join a queue before it is activated. To check the status, visit one of the provided beacon chain explorers (beaconcha.in, goerli.beaconcha.in, or holesky.beaconcha.in) and enter your validator public key to track the activation process.
+After the deposit, monitor the status of your validator key. It will join a queue before it is activated. To check the status, visit one of the provided beacon chain explorers (beaconcha.in,, or holesky.beaconcha.in) and enter your validator public key to track the activation process.
 
 ![Step 38 Screenshot](../../../../../../static/screenshots/36_2.png)
 
