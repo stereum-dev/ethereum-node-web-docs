@@ -17,7 +17,7 @@ In the one-click installation section, choose your use case and network. For thi
 ![Step 3 Screenshot](../../../../../../static/screenshots/3.png)
 
 ### Step 4
-Ensure you set the appropriate data path for your server by selecting the right storage volume. This step affects your node's performance and stability. For services, Geth is common for execution and Lighthouse for consensus. Set the installation directory, usually `/opt/stereum`, to keep your services well-organized for easy management.
+Ensure you set the appropriate data path for your server by selecting the right storage volume. This step affects your node's performance and stability. For services, Geth is common for execution, and for consensus, any client works well. Set the installation directory, usually `/opt/stereum`, to keep your services well-organized for easy management.
 
 ![Step 4 Screenshot](../../../../../../static/screenshots/4.png)
 
@@ -188,7 +188,7 @@ Click on "Send Deposit" to initiate the deposit of your ETH. Confirm the transac
 ![Step 36 Screenshot](../../../../../../static/screenshots/36.png)
 
 ### Step 37
-After the deposit, monitor the status of your validator key. It will join a queue before it is activated. To check the status, visit one of the provided beacon chain explorers (beaconcha.in, or holesky.beaconcha.in) and enter your validator public key to track the activation process.
+After the deposit, monitor the status of your validator key. It will join a queue before it is activated. To check the status, visit one of the provided beacon chain explorers (beaconcha.in, goerli.beaconcha.in, or holesky.beaconcha.in) and enter your validator public key to track the activation process.
 
 ![Step 37 Screenshot](../../../../../../static/screenshots/36_2.png)
 
