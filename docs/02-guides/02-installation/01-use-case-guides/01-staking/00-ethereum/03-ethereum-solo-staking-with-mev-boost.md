@@ -214,7 +214,7 @@ Open the Stereum application and log into your server. Navigate to the "Staking"
 ### Step 40
 Once you click or drag to insert the key, a file explorer will open. Navigate to the location of your validator key files, select them, and choose the validator client (like Lighthouse, Prysm, etc.) that you want to import your keys into. This is where you specify which client will manage your validator duties.
 
-![Step 40 Screenshot](../../../../../../static/screenshots/guides/guides/mev-boosted-staking/mev-boosted-staking-40.png)
+![Step 40 Screenshot](../../../../../../static/screenshots/guides/mev-boosted-staking/mev-boosted-staking-40.png)
 
 ### Step 41
 A dialogue will appear asking if you want to import with a Slashing Protection Database. Choose "No" if you have not previously imported these keys into a different client or if this is your initial setup. Click "Import" to proceed with importing your validator key without the Slashing Protection Database. This will initiate the import process for your validator key into the client.
