@@ -51,8 +51,8 @@ This part can completed without having a fully synced node.
 1. **Activate Obol Charon Service**: Now that the DKG is completed, ensure the Obol Charon service is turned on and its status is green.
 2. **Monitor Logs**: Check the Obol Charon service logs for any errors and monitor connected/non-connected peers.
 3. **Access Staking Page**: Go to the staking page in Stereum.
-4. **Locate Keys**: Find `keystore-0.json` & `keystore-0.txt` in the `validator_keys` folder in your saved backup folder.
-5. **Import Keys**: Drag and drop `keystore-0.json` & `keystore-0.txt` into the staking page. A public key should be displayed under "Insert Validator Key".
+1. **Locate Keys**: Find the keystore files like: `keystore-0.json` & their related password file like: `keystore-0.txt` in the `validator_keys` folder in your saved backup folder.
+2. **Import Keys**: Drag and drop the keystore JSON as well as the to the keystore related password file into the staking page. A public key should be displayed under "Insert Validator Key".
 6. **Select Lodestar**: Choose the `Lodestar` option in the interface.
 7. **Import Validator**: You will be prompted to enter a password, proceed by leaving the password field empty, as you have imported it with the `.txt` file.
 8. **Slashing Protection Database**: When prompted for importing a slashing protection database, select "no", then click "import".
