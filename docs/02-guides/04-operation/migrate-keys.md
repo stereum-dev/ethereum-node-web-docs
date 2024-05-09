@@ -1,4 +1,4 @@
-### Migrate Keys
+### Migrate Validator Keys
 
 #### Step-by-Step Guide to Validator Key Migration
 

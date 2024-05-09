@@ -1,5 +1,3 @@
-
-
 # Ethereum Solo Staking 
 
 ## Step by Step Guide
