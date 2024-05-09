@@ -1,3 +1,7 @@
+---
+title: Hardware Requirements
+---
+
 # Hardware Requirements for Stereum Ethereum Node Setup
 
 This guide outlines the necessary hardware requirements for setting up a Stereum Ethereum staking node. The requirements are categorized into two sections: Node Server Hardware and Launcher Machine Hardware.
