@@ -1,9 +1,14 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Node Server Setup
+---
+title: Initial Server Setup
+---
 
-## Ubuntu Setup
+
+# Intial Node Server Setup
+
+## Ubuntu Server Setup
 
 ### Create a Bootable USB Stick {#create-bootable-usb}
 
