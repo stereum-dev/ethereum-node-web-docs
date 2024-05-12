@@ -2,8 +2,6 @@
 
 ## Part 1 / 2 | SSV Network Node Setup
 
-## Part 1 / 2 | SSV Network Node Setup
-
 ### Step 1: Server Login
 Open your server management dashboard to log in. Provide the server name, IP address, username, and password, or connect using an SSH key if configured.
 
