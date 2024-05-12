@@ -163,7 +163,7 @@ You will be prompted to connect an Ethereum wallet, such as Metamask. This is ne
 ![Step 31 Screenshot](../../../../../../static/screenshots/31.png)
 
 ### Step 32
-Confirm that your MetaMask wallet is connected to the correct network and that you have enough Testnet ETH to cover the transaction gas fee.
+Confirm that your Ethereum wallet is connected to the correct network and that you have enough Testnet ETH to cover the transaction gas fee.
 
 ![Step 32 Screenshot](../../../../../../static/screenshots/32.png)
 
@@ -178,7 +178,7 @@ Check all the necessary boxes to acknowledge the risks and affirm that you under
 ![Step 34 Screenshot](../../../../../../static/screenshots/34.png)
 
 ### Step 35
-Ensure Metamask wallet shows as connected on the launchpad site. Confirm your network and balance are correct, as these are required for making the validator deposit.
+Ensure Ethereum wallet shows as connected on the launchpad site. Confirm your network and balance are correct, as these are required for making the validator deposit.
 
 ![Step 35 Screenshot](../../../../../../static/screenshots/35.png)
 
