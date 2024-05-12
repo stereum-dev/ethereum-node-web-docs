@@ -2,17 +2,15 @@
 
 ## Part 1 / 2 | SSV Network Node Setup
 
-## Part 1 / 2 | SSV Network Node Setup
-
 ### Step 1: Server Login
 Open your server management dashboard to log in. Provide the server name, IP address, username, and password, or connect using an SSH key if configured.
 
-![Step 1 Screenshot](../../../../../../static/screenshots/S1.png)
+![Step 1 Screenshot](../../../../../../static/screenshots/S2.png)
 
 ### Step 2: Initiate One-Click Installation
 Navigate to the "One Click Installation" feature in the welcome area, specifically designed to simplify the installation process for beginners.
 
-![Step 2 Screenshot](../../../../../../static/screenshots/S2.png)
+![Step 2 Screenshot](../../../../../../static/screenshots/S1.png)
 
 ### Step 3: Select the Network
 Choose the appropriate network for your needs. For testing and development purposes, select "Holesky Testnet" by clicking on the "SSV Network" icon. For operating the node with real funds, select "Ethereum Mainnet" to ensure robust security and operational reliability.
@@ -119,23 +117,23 @@ Finally, in your Ethereum wallet (for example, MetaMask), select the specific ac
 
 ![Step 22 Screenshot](../../../../../../static/screenshots/S22.png)
 
-### Step 23: Set Operator Fee
-Enter the annual fee in SSV tokens that you wish to charge validators for your services. This fee will be presented as an annual payment but is typically paid to operators continuously for each block processed.
+### Step 23: Paste Your Public Operator Key
+Copy your Public Operator Key from the Stereum app and paste it into the field shown in your browser. This key allows you to be uniquely identified within the network, enabling other validators to select you as their operator.
 
 ![Step 23 Screenshot](../../../../../../static/screenshots/S23.png)
 
-### Step 24: Confirm Operator Fee and Details
-After setting your fee, you will see a summary of the transaction details. Verify the information, especially the operator key and the annual fee, then click "Register Operator" to proceed.
+### Step 24: Set Operator Fee
+Enter the annual fee in SSV tokens that you wish to charge validators for your services. This fee will be presented as an annual payment but is typically paid to operators continuously for each block processed.
 
 ![Step 24 Screenshot](../../../../../../static/screenshots/S24.png)
 
-### Step 25: Confirm Transaction in Ethereum Wallet
-A confirmation request will appear in your Ethereum wallet of choice, for example, MetaMask. Review the transaction details, ensuring the fee and recipient details are correct, then confirm the transaction.
+### Step 25: Confirm Operator Fee and Details
+After setting your fee, you will see a summary of the transaction details. Verify the information, especially the operator key and the annual fee, then click "Register Operator" to proceed.
 
 ![Step 25 Screenshot](../../../../../../static/screenshots/S25.png)
 
-### Step 26: Transaction Pending
-Your transaction will now be pending on the blockchain. Wait for the blockchain to confirm it, which might take a few minutes depending on network traffic and gas price.
+### Step 26: Confirm Transaction in Ethereum Wallet
+A confirmation request will appear in your Ethereum wallet of choice, for example, MetaMask. Review the transaction details, ensuring the fee and recipient details are correct, then confirm the transaction.
 
 ![Step 26 Screenshot](../../../../../../static/screenshots/S26.png)
 
@@ -144,13 +142,13 @@ Once confirmed, you will see a transaction hash. You can click on this hash to v
 
 ![Step 27 Screenshot](../../../../../../static/screenshots/S27.png)
 
-### Step 28: Welcome to the SSV Network
+### Step 29: Welcome to the SSV Network
 Congratulations! You are now an official operator on the SSV network. Your operator ID will be displayed, and you can now manage the validators associated with your node.
 
-![Step 28 Screenshot](../../../../../../static/screenshots/S28.png)
+![Step 29 Screenshot](../../../../../../static/screenshots/S28.png)
 
-### Step 29: Manage Operators
+### Step 30: Manage Operators
 After registering, you can view and manage your operators in the dashboard. Here, you can see each operator's ID, status, performance over the last 30 days, balance, yearly fee, and the number of validators. You can add more operators by clicking "Add Operator".
 
-![Step 29 Screenshot](../../../../../../static/screenshots/S29.png)
+![Step 30 Screenshot](../../../../../../static/screenshots/S29.png)
 
