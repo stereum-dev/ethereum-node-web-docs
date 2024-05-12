@@ -7,12 +7,12 @@
 ### Step 1: Server Login
 Open your server management dashboard to log in. Provide the server name, IP address, username, and password, or connect using an SSH key if configured.
 
-![Step 1 Screenshot](../../../../../../static/screenshots/S1.png)
+![Step 1 Screenshot](../../../../../../static/screenshots/S2.png)
 
 ### Step 2: Initiate One-Click Installation
 Navigate to the "One Click Installation" feature in the welcome area, specifically designed to simplify the installation process for beginners.
 
-![Step 2 Screenshot](../../../../../../static/screenshots/S2.png)
+![Step 2 Screenshot](../../../../../../static/screenshots/S1.png)
 
 ### Step 3: Select the Network
 Choose the appropriate network for your needs. For testing and development purposes, select "Holesky Testnet" by clicking on the "SSV Network" icon. For operating the node with real funds, select "Ethereum Mainnet" to ensure robust security and operational reliability.
