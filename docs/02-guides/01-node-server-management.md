@@ -1,6 +1,11 @@
-# Stereum Server Management Guide
+---
+title: Server Management
+---
 
-The Stereum Server Management interface is your central hub for managing and connecting to Stereum Node servers.
+
+# Server Management 
+
+The Server Management interface is your central hub for managing and connecting to Stereum Node servers.
 
 ## Overview
 

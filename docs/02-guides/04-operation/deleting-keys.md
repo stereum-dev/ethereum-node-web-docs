@@ -1,6 +1,6 @@
-### Delete Keys
+# Remove Validator Keys
 
-#### Procedure for Secure Key Deletion
+## Procedure for Secure Key Deletion
 
 1. **Delete Keys on Node**: Initiate the deletion process directly on your node.
 2. **Wait and Monitor**: After deletion, wait for two epochs to ensure the keys are completely inactive.
