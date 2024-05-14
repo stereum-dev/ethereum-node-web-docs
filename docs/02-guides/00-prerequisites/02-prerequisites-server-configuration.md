@@ -2,12 +2,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 
----
-title: Server Configuration
----
-
-
-# Mandatory Server Configuration {#mandatory-configuration}
+# Server Configuration {#mandatory-configuration}
 
 ## Passwordless Sudo Setup
 
