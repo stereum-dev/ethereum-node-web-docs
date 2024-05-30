@@ -40,7 +40,10 @@ jobs:
           echo "PROJECT_ID=$(jq -r '.data.repository.projectV2.id' project_data.json)" >> $GITHUB_ENV
           echo "STATUS_FIELD_ID=$(jq -r '.data.repository.projectV2.fields.nodes[] | select(.name == \"Status\") | .id' project_data.json)" >> $GITHUB_ENV
           echo "BACKLOG_OPTION_ID=$(jq -r '.data.repository.projectV2.fields.nodes[] | select(.name == \"Status\") | .options[] | select(.name == \"BackLog\") | .id' project_data.json)" >> $GITHUB_ENV
-    
+          echo "DEPARTMENT_FIELD_ID=$(jq -r '.data.repository.projectV2.fields.nodes[] | select(.name == \"Department\") | .id' project_data.json)" >> $GITHUB_ENV
+          echo "MAIN_TASK_FIELD_ID=$(jq -r '.data.repository.projectV2.fields.nodes[] | select(.name == \"Main Task ID\") | .id' project_data.json)" >> $GITHUB_ENV
+          echo "SUB_TASK_FIELD_ID=$(jq -r '.data.repository.projectV2.fields.nodes[] | select(.name == \"Sub Task ID\") | .id' project_data.json)" >> $GITHUB_ENV
+
       - name: Add issue to project
         env:
           GH_TOKEN: ${{ secrets.PUSH_TO_PROJECT }}
@@ -55,3 +58,46 @@ jobs:
               }
             }' -f project=$PROJECT_ID -f issue=$ISSUE_ID --jq '.data.addProjectV2ItemById.item.id')
           echo "PROJECT_ITEM_ID=$project_item_id" >> $GITHUB_ENV
+
+      - name: Update project item fields
+        env:
+          GH_TOKEN: ${{ secrets.PUSH_TO_PROJECT }}
+          PROJECT_ITEM_ID: ${{ steps.add_issue.outputs.PROJECT_ITEM_ID }}
+          DEPARTMENT_FIELD_ID: ${{ env.DEPARTMENT_FIELD_ID }}
+          MAIN_TASK_FIELD_ID: ${{ env.MAIN_TASK_FIELD_ID }}
+          SUB_TASK_FIELD_ID: ${{ env.SUB_TASK_FIELD_ID }}
+          BACKLOG_OPTION_ID: ${{ env.BACKLOG_OPTION_ID }}
+          STATUS_FIELD_ID: ${{ env.STATUS_FIELD_ID }}
+        run: |
+          gh api graphql -f query='
+            mutation($projectItem: ID!, $field: ID!, $value: String!) {
+              updateProjectV2ItemFieldValueById(input: {projectId: $projectItem, fieldId: $field, value: {text: $value}}) {
+                projectV2Item {
+                  id
+                }
+              }
+            }' -f projectItem=$PROJECT_ITEM_ID -f field=$DEPARTMENT_FIELD_ID -f value="Development"
+          gh api graphql -f query='
+            mutation($projectItem: ID!, $field: ID!, $value: String!) {
+              updateProjectV2ItemFieldValueById(input: {projectId: $projectItem, fieldId: $field, value: {text: $value}}) {
+                projectV2Item {
+                  id
+                }
+              }
+            }' -f projectItem=$PROJECT_ITEM_ID -f field=$MAIN_TASK_FIELD_ID -f value="Development - Stereum"
+          gh api graphql -f query='
+            mutation($projectItem: ID!, $field: ID!, $value: String!) {
+              updateProjectV2ItemFieldValueById(input: {projectId: $projectItem, fieldId: $field, value: {text: $value}}) {
+                projectV2Item {
+                  id
+                }
+              }
+            }' -f projectItem=$PROJECT_ITEM_ID -f field=$SUB_TASK_FIELD_ID -f value="Stereum BackLog"
+          gh api graphql -f query='
+            mutation($projectItem: ID!, $field: ID!, $value: ID!) {
+              updateProjectV2ItemFieldValueById(input: {projectId: $projectItem, fieldId: $field, value: {singleSelectOptionId: $value}}) {
+                projectV2Item {
+                  id
+                }
+              }
+            }' -f projectItem=$PROJECT_ITEM_ID -f field=$STATUS_FIELD_ID -f value=$BACKLOG_OPTION_ID
