@@ -2,7 +2,7 @@
 
 #### What is Doppelganger Protection?
 
-Doppelganger Protection is a critical security feature in the Ethereum staking ecosystem. It helps to prevent a situation where a validator might inadvertently be running in two different places simultaneously. This scenario, known as a "doppelganger," can lead to serious penalties for the validator, including slashing and loss of staked ETH. The protection mechanism ensures that only one instance of a validator is active at any given time, safeguarding the validator’s operations and maintaining network integrity.
+Doppelganger Protection is a critical security feature in the Ethereum staking ecosystem. It helps to prevent a situation where a validator might inadvertently be running in two different places simultaneously. This scenario is a [slashable offense](../../04-glossary/slashing.md) and leads to serious penalties for the validator in the form of a loss of staked ETH. The Doppelganger protection mechanism ensures that only one instance of a validator is active at any given time, safeguarding the validator’s operations and maintaining network integrity.
 
 #### How Does Doppelganger Protection Work?
 
