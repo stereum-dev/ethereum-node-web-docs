@@ -1,20 +1,24 @@
-### Block Fee Recipient
+---
+title: Block Fee Recipient
+---
 
-#### What is a Block Fee Recipient?
+# Block Fee Recipient
+
+## What is a Block Fee Recipient?
 
 The Block Fee Recipient is a crucial configuration for Ethereum validators, specifying the Ethereum address where transaction fees and MEV (Miner Extractable Value) rewards are sent. When a validator proposes a block, the fees from transactions included in that block are sent to the designated fee recipient address. This setup ensures that the validator receives the rewards for their efforts in maintaining the network.
 
-#### 🚨 DON'T FORGET TO SET IT UP
+## 🚨 DON'T FORGET TO SET IT UP
 
 Setting the Block Fee Recipient address is essential! You have to set this address to ensure you receive transaction fees and rewards for proposing blocks. **Forgetting to set this address means you will miss out on receiving these important rewards**.
 
 
-#### What Can You Do with It?
+## What Can You Do with It?
 
 - **Direct Rewards to Your Wallet:** Set the fee recipient to your own Ethereum wallet address to collect rewards directly.
 - **Support a Cause:** Redirect rewards to a different address, such as a community fund or charity.
 
-#### How to Set the Block Fee Recipient in Stereum
+## How to Set the Block Fee Recipient in Stereum
 
 🚨 Recommendations
 

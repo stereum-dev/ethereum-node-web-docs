@@ -1,14 +1,18 @@
-### Doppelganger Protection
+---
+title: Doppelganger Protection
+---
 
-#### What is Doppelganger Protection?
+# Doppelganger Protection
+
+## What is Doppelganger Protection?
 
 Doppelganger Protection is a critical security feature in the Ethereum staking ecosystem. It helps to prevent a situation where a validator might inadvertently be running in two different places simultaneously. This scenario is a [slashable offense](../../04-glossary/slashing.md) and leads to serious penalties for the validator in the form of a loss of staked ETH. The Doppelganger protection mechanism ensures that only one instance of a validator is active at any given time, safeguarding the validator’s operations and maintaining network integrity.
 
-#### How Does Doppelganger Protection Work?
+## How Does Doppelganger Protection Work?
 
 Doppelganger Protection works by implementing a series of checks to confirm that a validator is not active elsewhere before starting its operations. When a validator client is initiated, it checks the network for any evidence of its own activity. If another instance of the validator is found to be active, the client will halt its operations to avoid double-signing blocks or attestations, which could lead to slashing penalties. This feature is crucial for validators who might accidentally start their validator client on multiple machines or in different locations.
 
-#### How to Activate/Deactivate Doppelganger Protection
+## How to Activate/Deactivate Doppelganger Protection
 
 🚨 Recommendations
 

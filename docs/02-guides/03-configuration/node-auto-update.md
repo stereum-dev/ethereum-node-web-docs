@@ -1,3 +1,7 @@
+---
+title: Node Auto Updates
+---
+
 # Node Auto Update
 
 ## Enabling Automated Node Updates
