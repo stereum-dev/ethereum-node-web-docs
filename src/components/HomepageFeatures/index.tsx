@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Robust Monitoring Tools',
-    Svg: require('@site/static/img/landing/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/landing/web-docs-home-2.svg').default,
     description: (
       <>
         Keep track of your node's performance and status with Stereum's comprehensive monitoring tools. Stay informed and proactive in maintaining node health and efficiency.
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Flexible Configuration',
-    Svg: require('@site/static/img/landing/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/landing/web-docs-home-3.svg').default,
     description: (
       <>
         Customize and configure your node to match your specific requirements. Stereum offers a variety of configuration options to tailor your node's operation.
