@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy Node Setup',
-    Svg: require('@site/static/img/landing/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/landing/web-docs-home-1.svg').default,
     description: (
       <>
         Stereum simplifies the process of setting up Ethereum nodes, providing a streamlined and user-friendly interface to get your node up and running with minimal hassle.
