@@ -122,7 +122,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Stereum`,
+      copyright: `Copyright © ${new Date().getFullYear()} Stereum FlexCo`,
     },
     prism: {
       theme: prismThemes.github,
