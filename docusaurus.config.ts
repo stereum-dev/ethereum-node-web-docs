@@ -63,8 +63,14 @@ const config: Config = {
       logo: {
         alt: 'Stereum Logo',
         src: 'img/branding/logo.svg',
+        href: 'https://stereum.com/',
       },
       items: [
+        {
+          to: '/', 
+          label: 'Home',
+          position: 'left',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
