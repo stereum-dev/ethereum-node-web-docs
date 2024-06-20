@@ -90,8 +90,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Stake with 32 ETH - Guide',
+              to: '/docs/guides/installation/use-case-guides/staking/ethereum/ethereum-solo-staking',
             },
           ],
         },
