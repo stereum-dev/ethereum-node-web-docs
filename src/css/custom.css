@@ -14,7 +14,7 @@
   --ifm-color-primary-lighter: #3b7575;
   --ifm-color-primary-lightest: #3d7a7a;
   --ifm-footer-background-color: #336666;
-  --ifm-footer-font-color: #ffffff; 
+  --ifm-footer-color: #ffffff; 
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -28,5 +28,5 @@
   --ifm-color-primary-lightest: #d6e4dc;
   --ifm-background-color: #494949;
   --ifm-footer-background-color: #336666;
-  --ifm-footer-font-color: #ffffff; 
+  --ifm-footer-color: #ffffff; 
 }
