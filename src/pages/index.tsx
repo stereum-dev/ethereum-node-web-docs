@@ -10,7 +10,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header style={{ backgroundColor: '#336666', color: '#ffffff' }} className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header style={{ backgroundColor: '#336666' }} className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
          🍄 Stereum

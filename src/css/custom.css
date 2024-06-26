@@ -29,6 +29,6 @@
   --ifm-color-primary-lightest: #d6e4dc;
   --ifm-background-color: #494949;
   --ifm-footer-background-color: #336666;
-  --ifm-footer-color: #ffffff; 
-  --ifm-footer-link-color: #ffffff;
+  --ifm-footer-color: #000000; 
+  --ifm-footer-link-color: #000000;
 }
