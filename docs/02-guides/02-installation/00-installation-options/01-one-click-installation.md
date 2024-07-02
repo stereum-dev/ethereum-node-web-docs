@@ -29,13 +29,13 @@ During the One-Click Installation process, you will choose your use case based o
 - **SSV Network**: Deploy an SSV (Secret Shared Validators) network node. 
   - [SSV Network Guide](../01-use-case-guides/03-node-operator/ssv-network/01-ssv-network-node-operator.md)
 
-- **Archive**: Create an archive node that maintains the complete history of the Ethereum blockchain - **Currently work in progress**
+- **Archive**: Create an archive node that maintains the complete history of the Ethereum blockchain - **Guide is currently work in progress**
   - [Archive Node Guide](../02-blockchain-data/01-installation-archive-node.md)
 
-- **Obol**: Install a node to participate in the Obol Network, designed for distributed validator technology - **Currently work in progress**
+- **Obol**: Install a node to participate in the Obol Network, designed for distributed validator technology - **Guide is currently work in progress**
   - [Obol Network Guide](../01-use-case-guides/01-staking/00-ethereum/04-obol-clustered-ethereum-solo-staking.md)
 
-- **ARM**: Specialized installation for ARM architecture hardware, typically used for lower-power devices - **Currently work in progress**
+- **ARM**: Specialized installation for ARM architecture hardware, typically used for lower-power devices - **Guide is currently work in progress**
   - [ARM Architecture Guide](../01-use-case-guides/01-staking/00-ethereum/02-ethereum-solo-staking-on-ARM.md)
 
 - **Lido x Obol SDVTM (Testnet)**: Take part in the testnet & install a node that combines Lido and Obol technologies to decentralize the Staking Pool's Node Operator set. 
