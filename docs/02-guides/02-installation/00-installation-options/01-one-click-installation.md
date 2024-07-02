@@ -18,28 +18,28 @@ The One Click Installation process for Stereum is designed to facilitate a seaml
 During the One-Click Installation process, you will choose your use case based on the available options:
 
 - **Staking (Ethereum)**: Set up a node designed for Ethereum staking purposes.
-  - [Ethereum Solo Staking Guide](./02-installation/01-use-case-guides/01-staking/00-ethereum/01-ethereum-solo-staking.md)
+  - [Ethereum Solo Staking Guide](../01-use-case-guides/01-staking/00-ethereum/01-ethereum-solo-staking.md)
 
 - **Staking (Gnosis)**: Set up a node designed for Gnosis staking purposes. 
-  - [Gnosis Staking Guide](./02-installation/01-use-case-guides/01-staking/01-gnosis/01-gnosis-staking.md)
+  - [Gnosis Staking Guide](../01-use-case-guides/01-staking/01-gnosis/01-gnosis-staking.md)
 
 - **MEV-Boosted Staking (Ethereum)**: Configure a Ethereum node optimized for maximizing MEV (Miner Extractable Value) opportunities.
-  - [MEV-Boosted Guide](./02-installation/01-use-case-guides/01-staking/00-ethereum/03-ethereum-solo-staking-with-mev-boost.md)
+  - [MEV-Boosted Guide](../01-use-case-guides/01-staking/00-ethereum/03-ethereum-solo-staking-with-mev-boost.md)
 
-- **SSV Network**: Deploy an SSV (Secret Shared Validators) network node.
-  - [SSV Network Guide](./02-installation/03-node-operator/01-ssv-network/01-ssv-network-node-operator.md)
+- **SSV Network**: Deploy an SSV (Secret Shared Validators) network node. 
+  - [SSV Network Guide](../01-use-case-guides/03-node-operator/ssv-network/01-ssv-network-node-operator.md)
 
-- **Archive**: Create an archive node that maintains the complete history of the Ethereum blockchain.
-  - [Archive Node Guide](./02-installation/02-blockchain-data/01-installation-archive-node.md)
+- **Archive**: Create an archive node that maintains the complete history of the Ethereum blockchain - **Guide is currently work in progress**
+  - [Archive Node Guide](../02-blockchain-data/01-installation-archive-node.md)
 
-- **Obol**: Install a node to participate in the Obol Network, designed for distributed validator technology.
-  - [Obol Network Guide](./02-installation/01-use-case-guides/03-node-operator/01-lido/01-lido-sdvtn-obol.md)
+- **Obol**: Install a node to participate in the Obol Network, designed for distributed validator technology - **Guide is currently work in progress**
+  - [Obol Network Guide](../01-use-case-guides/01-staking/00-ethereum/04-obol-clustered-ethereum-solo-staking.md)
 
-- **ARM**: Specialized installation for ARM architecture hardware, typically used for lower-power devices.
-  - [ARM Architecture Guide](./02-installation/01-use-case-guides/01-staking/00-ethereum/02-ethereum-solo-staking-on-ARM.md)
+- **ARM**: Specialized installation for ARM architecture hardware, typically used for lower-power devices - **Guide is currently work in progress**
+  - [ARM Architecture Guide](../01-use-case-guides/01-staking/00-ethereum/02-ethereum-solo-staking-on-ARM.md)
 
 - **Lido x Obol SDVTM (Testnet)**: Take part in the testnet & install a node that combines Lido and Obol technologies to decentralize the Staking Pool's Node Operator set. 
-  - [Lido x Obol SDVTM Guide](./02-installation/03-node-operator/01-lido/01-lido-sdvtm-obol.md)
+  - [Lido x Obol SDVTM Guide](../01-use-case-guides/03-node-operator/lido/01-lido-sdvtm-obol.md)
 
 
 After selecting your use case and pressing `Start`, a random client selection will be taken to serve your use case.
