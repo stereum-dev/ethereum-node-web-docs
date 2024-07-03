@@ -48,7 +48,7 @@ On the "Control" page, keep an eye on the synchronization status of both blockch
 ![Step 9 Screenshot](../../../../../../static/screenshots/guides/ethereum-solo-staking/ethereum-solo-staking-9.png)
 
 ## Part 2 / 5 | Validor Key Deposit Preparation
-
+  
 ### Step 10
 Navigate to the Ethereum Launchpad website [https://launchpad.ethereum.org](https://launchpad.ethereum.org), which is the official portal for becoming an Ethereum validator. You can visit either the general launchpad or the Holesky testnet launchpad, based on your requirements. Click on "Become a Validator" to start the process of setting up and registering your node as a validator.
 
