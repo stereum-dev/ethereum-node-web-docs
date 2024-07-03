@@ -1,6 +1,6 @@
 # MEV boosted Ethereum Solo Staking Guide
 
-## Part 1 / 4 | Ethereum Node Setup
+## Part 1 / 5 | Ethereum Node Setup
 
 ### Step 1
 To begin setting up your server for crypto transactions with Stereum, start by logging into your server management system. Enter the server's IP address, username, and password, then proceed to log in. This step is critical for establishing a secure connection to your server where the node will be installed.
@@ -57,6 +57,8 @@ On the "Control" page, keep an eye on the synchronization status of both blockch
 
 ![Step 11 Screenshot](../../../../../../static/screenshots/guides/ethereum-solo-staking/ethereum-solo-staking-9.png)
 
+## Part 2 / 5 | Validor Key Deposit Preparation 
+
 ### Step 11
 Navigate to the Ethereum Launchpad website [https://launchpad.ethereum.org](https://launchpad.ethereum.org), which is the official portal for becoming an Ethereum validator. You can visit either the general launchpad or the Holesky testnet launchpad, based on your requirements. Click on "Become a Validator" to start the process of setting up and registering your node as a validator.
 
@@ -98,7 +100,7 @@ Return to the staking launchpad page and confirm that you've securely stored you
 
 ![Step 19 Screenshot](../../../../../../static/screenshots/guides/ethereum-solo-staking/ethereum-solo-staking-18.png)
 
-## Part 2 / 4 | Validator Key Generation 
+## Part 3 / 5 | Validator Key Generation 
 
 ### Step 19
 For a user-friendly experience, opt for the Wagyu Key Gen application. This graphical user interface (GUI) tool, developed by the ETH Staker community, simplifies the key generation process. Though other options are available, Wagyu is highly recommended for its ease of use. After clicking on "DOWNLOAD FROM GITHUB," locate and download the Wagyu version that corresponds to your operating system.
@@ -155,7 +157,7 @@ Once your keys are generated, a screen will confirm that the keys are successful
 
 ![Step 29 Screenshot](../../../../../../static/screenshots/guides/ethereum-solo-staking/ethereum-solo-staking-28.png)
 
-## Part 3 / 4 | Validator Key Deposit
+## Part 4 / 5 | Validator Key Deposit
 
 ### Step 30
 Revisit the Ethereum staking launchpad webpage where you initially started the validator setup process.
@@ -202,7 +204,7 @@ After the deposit, monitor the status of your validator key. It will join a queu
 
 ![Step 38 Screenshot](../../../../../../static/screenshots/guides/ethereum-solo-staking/ethereum-solo-staking-37.png)
 
-## Part 4 / 4 | Validator Key Import & Further Configuration
+## Part 5 / 5 | Validator Key Import & Further Configuration
 
 ### Step 39
 Open the Stereum application and log into your server. Navigate to the "Staking" section. To import your validator key, click on the 'Click or Drag to Insert Key' area or simply drag and drop your validator key file onto it.
