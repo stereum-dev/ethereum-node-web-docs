@@ -18,7 +18,7 @@ In the one-click installation section, choose your use case and network. For thi
 ![Step 3 Screenshot](../../../../../../static/screenshots/guides/ethereum-solo-staking/ethereum-solo-staking-3.png)
 
 ### Step 4
-Ensure you set the appropriate data path for your server by selecting the right storage volume. This step affects your node's performance and stability. For services, Geth is common for execution, and for consensus, any client works well. Set the installation directory, usually `/opt/stereum`, to keep your services well-organized for easy management.
+Ensure you set the appropriate data path for your server by selecting the right storage volume. This step affects your node's performance and stability. When setting up your node, try to alternate between different execution and consensus clients to optimize performance and network resilience. Set the installation directory, usually `/opt/stereum`, to keep your services well-organized for easy management.
 
 ![Step 4 Screenshot](../../../../../../static/screenshots/guides/ethereum-solo-staking/ethereum-solo-staking-4.png)
 
