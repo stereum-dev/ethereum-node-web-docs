@@ -18,80 +18,57 @@ Each member must submit:
 
 ### Step 3: Address Verification
 
-#### EOA Verification
+<Tabs
+  defaultValue="windows"
+  values={[
+    {label: 'EOA Verification', value: 'eoa'},
+    {label: 'SAFE Multisig (ONLY FOR INDIVIDUAL REWARD ADDRESSES)', value: 'safe-multisig'},
+  ]}>
 
-<!--DOCUSAURUS_CODE_TABS-->
+  <TabItem value="eoa">
 
-<!-- Sign Message-->
-
-1. **Sign the message on the Ethereum mainnet:**
+   1. **Sign the message on the Ethereum mainnet:**
    - Use your private key associated with the EOA.
    - Use a service like [Etherscan Verified Signatures](https://etherscan.io/verifiedSignatures).
+   2. **Connect your wallet:**
+      - Press the "Sign Message" button on Etherscan.
+      - Input the address you are verifying (manager or reward address).
+   3. **Enter the verification message:**
+      - Use the following template:   
+      `"<my name> is joining Lido x SSV cluster <cluster name> with address <public address>"`
+   4. **Sign and publish the message:**
+      - Once the message is successfully signed, publish it.
+   5. **Submit the verified signature URL:**
+      - Submit it via the form provided (e.g., https://etherscan.io/verifySig/27336).
 
-<!-- Connect Wallet-->
+  </TabItem>
 
-2. **Connect your wallet:**
-   - Press the "Sign Message" button on Etherscan.
-   - Input the address you are verifying (manager or reward address).
+  <TabItem value="safe-multisig">
 
-<!-- Enter Message-->
+   1. **Open your SAFE Multisig wallet:**
+      - Go to the [Holesky SAFE interface](https://holesky-safe.protofire.io/welcome).
+   2. **Create a new transaction:**
+      - Hit the "New transaction" button.
+      - Select "Contract interaction."
+   3. **Toggle the "Custom data" switch:**
+      - Enter any EOA address (e.g., `0x0000000000000000000000000000000000000000`) or your SAFE address.
+   4. **Encode your message:**
+      - Use a hex encoder like [Duplichecker](https://www.duplichecker.com/hex-to-text.php).
+      - Use the following template:   
+      `"<my name> is joining Lido x SSV cluster <cluster name> with address <public address>"`
+      - Paste the hex-encoded message into the "Data (Hex encoded)" field (prepend "0x" if it's missing).
+   5. **Submit the transaction:**
+      - Set "ETH value" to 0.
+      - Submit the transaction in the multisig interface.
+   6. **Submit the verified address:**
+      - Use the form provided by the Lido NOM team.
 
-3. **Enter the verification message:**
-   - Use the following template:   
-     `"<my name> is joining Lido x SSV cluster <cluster name> with address <public address>"`
+   </TabItem>
 
-<!-- Sign and Publish-->
 
-4. **Sign and publish the message:**
-   - Once the message is successfully signed, publish it.
+</Tabs>
 
-<!-- Submit Signature-->
 
-5. **Submit the verified signature URL:**
-   - Submit it via the form provided (e.g., https://etherscan.io/verifySig/27336).
-
-<!--/DOCUSAURUS_CODE_TABS-->
-
-#### SAFE Multisig Verification (ONLY for Individual Reward Addresses)
-
-<!--DOCUSAURUS_CODE_TABS-->
-
-<!-- Open SAFE Multisig-->
-
-1. **Open your SAFE Multisig wallet:**
-   - Go to the [Holesky SAFE interface](https://holesky-safe.protofire.io/welcome).
-
-<!-- Create New Transaction-->
-
-2. **Create a new transaction:**
-   - Hit the "New transaction" button.
-   - Select "Contract interaction."
-
-<!-- Toggle Custom Data-->
-
-3. **Toggle the "Custom data" switch:**
-   - Enter any EOA address (e.g., `0x0000000000000000000000000000000000000000`) or your SAFE address.
-
-<!-- Encode Message-->
-
-4. **Encode your message:**
-   - Use a hex encoder like [Duplichecker](https://www.duplichecker.com/hex-to-text.php).
-   - Use the following template:   
-     `"<my name> is joining Lido x SSV cluster <cluster name> with address <public address>"`
-   - Paste the hex-encoded message into the "Data (Hex encoded)" field (prepend "0x" if it's missing).
-
-<!-- Submit Transaction-->
-
-5. **Submit the transaction:**
-   - Set "ETH value" to 0.
-   - Submit the transaction in the multisig interface.
-
-<!-- Submit Address-->
-
-6. **Submit the verified address:**
-   - Use the form provided by the Lido NOM team.
-
-<!--/DOCUSAURUS_CODE_TABS-->
 
 ### Step 4: Wait for Confirmation
 
