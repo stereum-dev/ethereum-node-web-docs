@@ -4,8 +4,6 @@
 
 ### Step 1: Choose a Cluster Coordinator
 
-1. **Select a cluster coordinator:**
-
 Choose a cluster coordinator – this should be someone, who is technical adept and has some experience in setting up a SAFE Multisig and SSV Operator cluster.  
 
 ### Step 2: Collect and Verify Addresses
