@@ -1,4 +1,4 @@
-# Cluster Coordination and Lido x SSV Network Node Setup Guide
+# Lido x SSV Network - SDVTM Guide
 
 ## Cluster Coordination Guide
 
