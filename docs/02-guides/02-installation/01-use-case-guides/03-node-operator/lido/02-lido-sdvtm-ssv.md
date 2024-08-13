@@ -74,9 +74,9 @@ Each member must submit:
 
 Wait for confirmation from the Lido Team before proceeding further.
 
-### Step 5: Create SAFE Multisig
+### Step 5: Create SAFE Multisig with your cluster
 
-Once all addresses are verified, the cluster coordinator will create a 5/7 threshold SAFE Multisig. The Multisig will use each member's individual manager address on Holesky. 
+Once all addresses are verified, the **cluster coordinator** will create a 5/7 threshold SAFE Multisig. The Multisig will use each member's individual manager address on Holesky. 
 
 ### Step 6: Register Your Cluster
 
@@ -137,6 +137,15 @@ After completing the initial setup, you will be directed to the node page. Here,
 On the "Control" page, keep an eye on the synchronization status of both blockchain clients. Typically, the Consensus Client synchronization completes before the Execution Client's process starts. It's important to allow both clients to fully synchronize to ensure your node operates correctly within the network.
 
 ![Step 9 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-9.png)
+
+
+.) Confirm Change Log Settings
+As we are tracking missed block proposals, we need to increase the duration that SSV Nodes store their logs. In your SSV Node Config, all operators need to edit the LogFileBackupsflag in the config.yaml file to the format below. Once done, save it and restart your operator. 
+
+.) Add Flashbots MEV Relay 
+
+https://0xafa4c6985aa049fb79dd37010438cfebeb0f2bd42b115b89dd678dab0670c1de38da0c4e9138c9290a398ecd9a0b3110@boost-relay-holesky.flashbots.net
+
 
 ### Step 16: Access SSV Network Features
 
@@ -234,21 +243,25 @@ Once confirmed, you will see a transaction hash. You can click on this hash to v
 
 ![Step 27 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-27.png)
 
-## SSV DKG - Member Flow 
 
-Start the DKG
+.) Communicate back your operator id to your cluster within your dedicated Discord group.
 
-Please note that in order to participate in the DKG ceremony it is crucial to keep the ssv-dkg client online at all times (you may turn it off after the ceremonies have concluded).Please verify that DKG port is accessible, by visiting this website. Enter the IP of the machine running ssv-dkg and select the port used in the operator.yaml config file (default: 3030)
+.) Set SSV Operator Private
 
-Enter your operator metadata by following the metadata setup guide
-Your operator name should be set according to the naming convention “Lido - <Operator name>”
-Supported MEV relays should correlate to the relays you have configured in your Beacon client (Titan is currently not listed there)
-DKG Endpoint (IP and port) of the machine used to run the ssv-dkg client.
-Please ensure to have that port open if you haven’t)
-Any other information you want to be transparent about, e.g. clients, geolocation, logo etc..
-Setup monitoring for your node by following the setup Grafana dashboard guide
+.) SSV Whitelist Addresses
 
-Communicate back your operator id to your cluster within your dedicated Discord group.
+.) Once registered, fill-in the list of whitelisted addresses by following this guide on SSV docs. When providing addresses to be whitelisted, use the SAFE multi-sig address of the clusters you 
+
+.) Configure the SSV DKG Service (Add Operator ID / Confirm and Restrart)
+
+
+.) Enter your operator metadata:https://docs.ssv.network/operator-user-guides/operator-management/setting-operator-metadata (DKG Endpoint = IP: Copy IP Port: Default 3030)
+
+⚠️ Do not Move Forward Without Confirmation⚠️
+
+
+
+-) Log into your server with SSH, use the command, download keystore file
 
 ## SSV DKG - Leader Flow
 
