@@ -1,3 +1,6 @@
+import { Tabs, TabItem } from '@theme/Tabs';
+
+
 # Lido x SSV Network - SDVTM Guide
 
 ## Cluster Coordination Guide
