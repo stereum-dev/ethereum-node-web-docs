@@ -76,7 +76,7 @@ Wait for confirmation from the Lido Team before proceeding further.
 
 ### Step 5: Create SAFE Multisig with your cluster
 
-Once all addresses are verified, the **cluster coordinator** will create a 5/7 threshold SAFE Multisig. The Multisig will use each member's individual manager address on Holesky. 
+Once all addresses are verified, the **cluster coordinator** will create a 5/7 threshold SAFE Multisig. The Multisig will use each member's individual manager address on Holesky. When the SAFE is created, the **cluster coordinator** should share SAFE Holesky URL for your cluster to review (tag them to make sure they can connect) and tag @kimonsh. This address will be your cluster’s representation in the Lido Node Operator Registry on Holesky. 
 
 ### Step 6: Register Your Cluster
 
@@ -132,19 +132,18 @@ After completing the initial setup, you will be directed to the node page. Here,
 
 ![Step 8 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-8.png)
 
-### Step 15: Synchronization Status
+
+### Step 15: Confirm Change Log Settings
+As we are tracking missed block proposals, we need to increase the duration that SSV Nodes store their logs. In your SSV Node Config, accessible by opening the SSV Config in the settings of the SSV service, check that the `LogFileBackups` option is set to "28"
+
+
+
+### Step 16: Synchronization Status
 
 On the "Control" page, keep an eye on the synchronization status of both blockchain clients. Typically, the Consensus Client synchronization completes before the Execution Client's process starts. It's important to allow both clients to fully synchronize to ensure your node operates correctly within the network.
 
 ![Step 9 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-9.png)
 
-
-.) Confirm Change Log Settings
-As we are tracking missed block proposals, we need to increase the duration that SSV Nodes store their logs. In your SSV Node Config, all operators need to edit the LogFileBackupsflag in the config.yaml file to the format below. Once done, save it and restart your operator. 
-
-.) Add Flashbots MEV Relay 
-
-https://0xafa4c6985aa049fb79dd37010438cfebeb0f2bd42b115b89dd678dab0670c1de38da0c4e9138c9290a398ecd9a0b3110@boost-relay-holesky.flashbots.net
 
 
 ### Step 16: Access SSV Network Features
@@ -244,130 +243,44 @@ Once confirmed, you will see a transaction hash. You can click on this hash to v
 ![Step 27 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-27.png)
 
 
-.) Communicate back your operator id to your cluster within your dedicated Discord group.
+### Step 32: Communicate Operator ID to Cluster
 
-.) Set SSV Operator Private
-
-.) SSV Whitelist Addresses
-
-.) Once registered, fill-in the list of whitelisted addresses by following this guide on SSV docs. When providing addresses to be whitelisted, use the SAFE multi-sig address of the clusters you 
-
-.) Configure the SSV DKG Service (Add Operator ID / Confirm and Restrart)
+Return the the SSV dashboard. After registring you will be assigned an operator ID - make sure to communicate back your operator id to your cluster within your dedicated Discord group.
 
 
-.) Enter your operator metadata:https://docs.ssv.network/operator-user-guides/operator-management/setting-operator-metadata (DKG Endpoint = IP: Copy IP Port: Default 3030)
+## Permissioned Operator Configuration
 
-⚠️ Do not Move Forward Without Confirmation⚠️
+### Step 33: Operator Details screen
 
-
-
--) Log into your server with SSH, use the command, download keystore file
-
-## SSV DKG - Leader Flow
+If you aren't there already browse to the My Account page of the SSV Webpage. Select the Operator you want to update from the Operator Dashboard and click it to visit the Operator Detail Screen. 
 
 
-After the multi-sig has been created and the Lido team has confirmed your cluster to move forward, the cluster coordinator (the “Leader”) will be responsible for setting up validators through the Lido Node Operator registry.
+### Step 34: Access the Access Settings options
 
-Each cluster coordinator will create a total of 5 validator keys using the SSV based DKG. After the first 1 week monitoring period is complete, additional keys will be generated.
+On the Operator Details screen, click on the three vertical dots on the top-right corner, from the dropdown, choose the Access Settings option. In the following screen, you will see options to change the status of your operator, add authorized addresses, and set an external whitelisting contract to manage these addresses.
 
-Prerequisites (Holesky SSV cluster multisig funding)
-head over to SSV's faucet (faucet.ssv.network)
-switch to Holesky network
-connect your cluster Multisig via Walletconnect
-request for testnet SSV tokens
-Distribute Validator (SSV Registration)
-Here is a summary of the steps necessary to distribute validators on the SSV network:
+### Step 35: Change Operator to Private
 
-Generate Validator keys with SSV-DKG-Onboard CLI
-Register Validator to SSV network using SAFE transaction builder
-Add Validators to the Lido Node Operator Registry
-1. Generate Validators keys
-Validator keys generation and registration to SSV is done via the SSV-DKG-Onboard CLI which generates validator keys using DKG and builds their transaction payload for registration in the SSV contract.
+Change the status of our operator to private, start by clicking on the Operator Status option. You will be lead to the next modal. After clicking Switch to Private, you will be prompted to sign a transaction with your Web3 wallet. Once signed and validated by the network, the settings will be live.
 
-Run the SSV-DKG-Onboard CLI to generate 5 validators using the following command:
 
-Please note to replace the [MULTISIG_ADDRESS] with your Cluster's multisig address
-Please note to replace [OPERATOR_IDS] to the operator ids of your cluster
-DO NOT CHANGE THE withdrawal-address
-[OPERATOR_IDS] has to be a list in ascending order. For example:
-1,2,3,4 ✅
-4,1,2,3 ❌
-Copy
-docker pull bloxstaking/ssv-dkg-onboard:latest && \
-docker run --rm -v $(pwd)/onboard:/data bloxstaking/ssv-dkg-onboard:latest \
---withdrawal-address 0xF0179dEC45a37423EAD4FaD5fCb136197872EAd9 \
---validator-count 5 \
---deposit-amount 10 \
---owner-address [MULTISIG_ADDRESS] \
---operators [OPERATOR_IDS (Note: they must be in ascending order)]
-the --deposit-amount parameter relates to the SSV tokens needed to pay network fees. Please leave it untouched.
-The tool will generate a folder named onboard (if that does not exist), and inside it, there will be a folder named with the following pattern: <year>-<month>-<day>__<hour>-<minute>-<second>. Inside it, you should find these files:
+### Step 36: Set Authorized addresses
 
-Copy
-📂 <year>-<month>-<day>__<hour>-<minute>-<second>
-├── 📄 deposit-data.json # aggregated deposit-data for all the generated validators
-├── 📄 registration-transaction-data # transaction data to bulk register the validators
-└── 📂 internal # deposit-data and keyshares for each generated validator
-You will be using the registration-transaction-data in the next step, and deposit-data.json in the last one.
+Next you will have to set up the autorized addresses. To do this, use the SAFE multi-sig address of the clusters you are part of. If you are part of multiple clusters, you can add all of them to this list.
 
-If the DKG ceremony fails:
+## SSV DKG 
 
-Go to ceremony folder, it should look like this:
-Copy
-📂 <year>-<month>-<day>__<hour>-<minute>-<second>
-├── 📄 FAILED # File containing final error message
-├── 📄 inputs.json # file containing the inputs provided to the DKG tool
-└── 📂 internal 
-		├── 📄 console.log # printout of the console log
-		└── 📄 dkg.log # file containing the debug logs of the DKG tool
-Open the file named dkg.log as shown above
-Scroll down all the way and copy error in the discord channel
-2. Register Validators to SSV
-To register validators to the SSV network, you will be using SAFE UI to build a batch of transactions, then sign and execute them all together:
+###  Step 37: SSV DKG Service Configuration 
 
-Spending approval of SSV tokens by the SSV contract
-Validator registration
-Update of cluster Fee recipient
-To start, head over to the SAFE UI select New transaction and then click on Transaction Builder
+Return to Stereum. Open the Expert Mode in the settings of the SSV DKG service. Enter the Operator ID in the associated configuration line. 
 
-image
-image
-Prepare a transaction to Approve SSV spending to the SSV network contract.
-In the form, paste this address 0xad45A78180961079BFaeEe349704F411dfF947C6 in the Enter Address field
-The form will process the contract ABI and adapt. Enter the following values in the new fields
-0x38A4794cCEd47d3baf7370CcC43B560D3a1beEFA → spender (address)
-9999999999999999999999999999999999999999999  → amount (uint256)
-Click Add transaction. The transaction has now been added to the batch (visibile on the right side of the screen)
-image
-Now prepare a transaction to register 5 validators:
-toggle Custom data in the top right of the form
-image
-change the value of Enter Address field to 0x38A4794cCEd47d3baf7370CcC43B560D3a1beEFA
-Select the option Use Implementation ABI in the pop-up
-image
-Fill the rest of the form with the following values (use the image below for reference)
-ETH value → 0
-Data → (clear the field first) copy the content of registration-transaction-data file from previous step
-Click Add transaction button
-image
-Finally, prepare a transaction to configure fee recipient:
-Disable the Custom data toggle
-image
-In the Contract Method Selector at the bottom, select the method (see image below):
-Enter the address 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8 in the Recipient address field
-Click Add transaction and Create Batch buttons
-image
-Click Send Batch
-image
-Click Sign
-Notify the other operators in your cluster to sign this transaction in the safe interface
-Once you are sure the transactions has been signed and executed, head over to SSV Scan (make sure Holesky network is selected), enter the multisig address to confirm validators have been registered.
-Verify Validators are Registered to the correct Node Operators
-Find and copy your cluster SAFE address
-image
-Paste Address in SSV Scan cluster search
-image
-Select the cluster ties to the SAFE address
-image
-Verify that the cluster has the newly registered validators associated with it and that all of the operator IDs are correct. Double check that each Operator node is online.
-image
+
+###  Step 38: Turn on SSV DKG Service 
+
+Confirm and restart. Please note that in order to participate in the DKG ceremony it is crucial to keep the ssv-dkg client online at all times. You may turn it off after the ceremonies have concluded, but you must keep the artifacts.
+
+
+### Step 39: Verify SSV DKG Service Accessiblity 
+
+Verify that your SSV DKG service is accessible from the outside: https://www.yougetsignal.com/tools/open-ports/. Enter the IP of the machine running ssv-dkg (if different from the one running the browser) and select the port used in the operator.yaml config file (default: 3030). 
+
