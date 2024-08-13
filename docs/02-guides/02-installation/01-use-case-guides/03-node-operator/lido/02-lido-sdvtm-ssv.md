@@ -1,4 +1,6 @@
-import { Tabs, TabItem } from '@theme/Tabs';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 
 
 # Lido x SSV Network - SDVTM Guide
@@ -224,8 +226,6 @@ Copy your Public Operator Key from the Stereum app and paste it into the field s
 ### Step 28: Set Operator Fee
 
 For the annual fee in SSV tokens, set them to zero.
-
-![Step 24 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-24.png)
 
 ### Step 29: Confirm Operator Fee and Details
 
