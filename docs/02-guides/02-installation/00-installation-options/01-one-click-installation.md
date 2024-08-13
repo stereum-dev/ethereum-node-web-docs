@@ -30,7 +30,7 @@ During the One-Click Installation process, you will choose your use case based o
   - [SSV Network Guide](../01-use-case-guides/03-node-operator/ssv-network/01-ssv-network-node-operator.md)
 
 - **Archive**: Create an archive node that maintains the complete history of the Ethereum blockchain - **Guide is currently work in progress**
-  - [Archive Node Guide](../02-blockchain-data/01-installation-archive-node.md)
+  - [Archive Node Guide](../01-use-case-guides/02-blockchain-data/01-installation-archive-node.md)
 
 - **Obol**: Install a node to participate in the Obol Network, designed for distributed validator technology - **Guide is currently work in progress**
   - [Obol Network Guide](../01-use-case-guides/01-staking/00-ethereum/04-obol-clustered-ethereum-solo-staking.md)
