@@ -24,7 +24,7 @@ Each member must submit:
 ### Step 3: Address Verification
 
 <Tabs
-  defaultValue="windows"
+  defaultValue="eoa"
   values={[
     {label: 'EOA Verification', value: 'eoa'},
     {label: 'SAFE Multisig (ONLY FOR INDIVIDUAL REWARD ADDRESSES)', value: 'safe-multisig'},
