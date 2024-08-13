@@ -243,16 +243,11 @@ Once confirmed, you will see a transaction hash. You can click on this hash to v
 ![Step 27 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-27.png)
 
 
-### Step 32: Communicate Operator ID to Cluster
-
-Return the the SSV dashboard. After registring you will be assigned an operator ID - make sure to communicate back your operator id to your cluster within your dedicated Discord group.
-
-
 ## Permissioned Operator Configuration
 
 ### Step 33: Operator Details screen
 
-If you aren't there already browse to the My Account page of the SSV Webpage. Select the Operator you want to update from the Operator Dashboard and click it to visit the Operator Detail Screen. 
+Return to the SSV Network WebApp. If you aren't already there, browse to the My Account page of the SSV Network WebApp. Select the Operator you want to update from the Operator Dashboard and click it to visit the Operator Detail Screen. 
 
 
 ### Step 34: Access the Access Settings options
@@ -283,4 +278,13 @@ Confirm and restart. Please note that in order to participate in the DKG ceremon
 ### Step 39: Verify SSV DKG Service Accessiblity 
 
 Verify that your SSV DKG service is accessible from the outside: https://www.yougetsignal.com/tools/open-ports/. Enter the IP of the machine running ssv-dkg (if different from the one running the browser) and select the port used in the operator.yaml config file (default: 3030). 
+
+### Step 32: Communicate Operator ID to Cluster
+
+At this stage you are basically done with Setup Onboarding flow, make sure to communicate back your operator id to your cluster within your dedicated Discord group
+
+
+### Step 40: Wait to be added to the Node registry 
+
+You are nearly all good to go - with this you have reached the confirmation step! The rest of the steps are outlined in the provided documentation by Lido and require further confirmation by their team before advancing (at least at this stage). Please make sure to keep your SSV DKG Service online at least until the DKG ceremony initated by the Cluster leader has ended. 
 
