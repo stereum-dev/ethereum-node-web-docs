@@ -47,6 +47,9 @@ As we are tracking missed block proposals, we need to increase the duration that
 
 On the "Control" page, keep an eye on the synchronization status of both blockchain clients. Typically, the Consensus Client synchronization completes before the Execution Client's process starts. It's important to allow both clients to fully synchronize to ensure your node operates correctly within the network.
 
+
+## SSV Network Operator Setup
+
 ### Step 11: Access SSV Network Features
 
 Click on the SSV Network icon located at the top of the interface to access specific network features.
