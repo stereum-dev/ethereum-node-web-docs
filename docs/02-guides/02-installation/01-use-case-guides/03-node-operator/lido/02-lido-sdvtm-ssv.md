@@ -72,22 +72,15 @@ Each member must submit:
 
 ### Step 4: Wait for Confirmation
 
-1. **Pause and Wait:**
-   - Wait for confirmation from the Lido Team before proceeding further.
+Wait for confirmation from the Lido Team before proceeding further.
 
 ### Step 5: Create SAFE Multisig
 
-1. **Coordinator Action:**
-   - Once all addresses are verified, the cluster coordinator will create a 5/7 threshold SAFE Multisig.
-   - The Multisig will use each member's individual manager address on Holesky.
-
-2. **Share SAFE URL:**
-   - Share the SAFE Holesky URL with the cluster members.
+Once all addresses are verified, the cluster coordinator will create a 5/7 threshold SAFE Multisig. The Multisig will use each member's individual manager address on Holesky. 
 
 ### Step 6: Register Your Cluster
 
-1. **Committee Action:**
-   - The Simple DVT Module Committee will add your cluster to the Lido Node Operator Registry using the SAFE multisig you provided.
+The Simple DVT Module Committee will add your cluster to the Lido Node Operator Registry using the SAFE multisig you provided.
 
 ## Lido x SSV Network Node Setup
 
@@ -240,3 +233,128 @@ A confirmation request will appear in your Ethereum wallet of choice, for exampl
 Once confirmed, you will see a transaction hash. You can click on this hash to view the transaction details on Etherscan or another blockchain explorer.
 
 ![Step 27 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-27.png)
+
+## SSV DKG - Member Flow 
+
+Start the DKG
+
+Please note that in order to participate in the DKG ceremony it is crucial to keep the ssv-dkg client online at all times (you may turn it off after the ceremonies have concluded).Please verify that DKG port is accessible, by visiting this website. Enter the IP of the machine running ssv-dkg and select the port used in the operator.yaml config file (default: 3030)
+
+Enter your operator metadata by following the metadata setup guide
+Your operator name should be set according to the naming convention “Lido - <Operator name>”
+Supported MEV relays should correlate to the relays you have configured in your Beacon client (Titan is currently not listed there)
+DKG Endpoint (IP and port) of the machine used to run the ssv-dkg client.
+Please ensure to have that port open if you haven’t)
+Any other information you want to be transparent about, e.g. clients, geolocation, logo etc..
+Setup monitoring for your node by following the setup Grafana dashboard guide
+
+Communicate back your operator id to your cluster within your dedicated Discord group.
+
+## SSV DKG - Leader Flow
+
+
+After the multi-sig has been created and the Lido team has confirmed your cluster to move forward, the cluster coordinator (the “Leader”) will be responsible for setting up validators through the Lido Node Operator registry.
+
+Each cluster coordinator will create a total of 5 validator keys using the SSV based DKG. After the first 1 week monitoring period is complete, additional keys will be generated.
+
+Prerequisites (Holesky SSV cluster multisig funding)
+head over to SSV's faucet (faucet.ssv.network)
+switch to Holesky network
+connect your cluster Multisig via Walletconnect
+request for testnet SSV tokens
+Distribute Validator (SSV Registration)
+Here is a summary of the steps necessary to distribute validators on the SSV network:
+
+Generate Validator keys with SSV-DKG-Onboard CLI
+Register Validator to SSV network using SAFE transaction builder
+Add Validators to the Lido Node Operator Registry
+1. Generate Validators keys
+Validator keys generation and registration to SSV is done via the SSV-DKG-Onboard CLI which generates validator keys using DKG and builds their transaction payload for registration in the SSV contract.
+
+Run the SSV-DKG-Onboard CLI to generate 5 validators using the following command:
+
+Please note to replace the [MULTISIG_ADDRESS] with your Cluster's multisig address
+Please note to replace [OPERATOR_IDS] to the operator ids of your cluster
+DO NOT CHANGE THE withdrawal-address
+[OPERATOR_IDS] has to be a list in ascending order. For example:
+1,2,3,4 ✅
+4,1,2,3 ❌
+Copy
+docker pull bloxstaking/ssv-dkg-onboard:latest && \
+docker run --rm -v $(pwd)/onboard:/data bloxstaking/ssv-dkg-onboard:latest \
+--withdrawal-address 0xF0179dEC45a37423EAD4FaD5fCb136197872EAd9 \
+--validator-count 5 \
+--deposit-amount 10 \
+--owner-address [MULTISIG_ADDRESS] \
+--operators [OPERATOR_IDS (Note: they must be in ascending order)]
+the --deposit-amount parameter relates to the SSV tokens needed to pay network fees. Please leave it untouched.
+The tool will generate a folder named onboard (if that does not exist), and inside it, there will be a folder named with the following pattern: <year>-<month>-<day>__<hour>-<minute>-<second>. Inside it, you should find these files:
+
+Copy
+📂 <year>-<month>-<day>__<hour>-<minute>-<second>
+├── 📄 deposit-data.json # aggregated deposit-data for all the generated validators
+├── 📄 registration-transaction-data # transaction data to bulk register the validators
+└── 📂 internal # deposit-data and keyshares for each generated validator
+You will be using the registration-transaction-data in the next step, and deposit-data.json in the last one.
+
+If the DKG ceremony fails:
+
+Go to ceremony folder, it should look like this:
+Copy
+📂 <year>-<month>-<day>__<hour>-<minute>-<second>
+├── 📄 FAILED # File containing final error message
+├── 📄 inputs.json # file containing the inputs provided to the DKG tool
+└── 📂 internal 
+		├── 📄 console.log # printout of the console log
+		└── 📄 dkg.log # file containing the debug logs of the DKG tool
+Open the file named dkg.log as shown above
+Scroll down all the way and copy error in the discord channel
+2. Register Validators to SSV
+To register validators to the SSV network, you will be using SAFE UI to build a batch of transactions, then sign and execute them all together:
+
+Spending approval of SSV tokens by the SSV contract
+Validator registration
+Update of cluster Fee recipient
+To start, head over to the SAFE UI select New transaction and then click on Transaction Builder
+
+image
+image
+Prepare a transaction to Approve SSV spending to the SSV network contract.
+In the form, paste this address 0xad45A78180961079BFaeEe349704F411dfF947C6 in the Enter Address field
+The form will process the contract ABI and adapt. Enter the following values in the new fields
+0x38A4794cCEd47d3baf7370CcC43B560D3a1beEFA → spender (address)
+9999999999999999999999999999999999999999999  → amount (uint256)
+Click Add transaction. The transaction has now been added to the batch (visibile on the right side of the screen)
+image
+Now prepare a transaction to register 5 validators:
+toggle Custom data in the top right of the form
+image
+change the value of Enter Address field to 0x38A4794cCEd47d3baf7370CcC43B560D3a1beEFA
+Select the option Use Implementation ABI in the pop-up
+image
+Fill the rest of the form with the following values (use the image below for reference)
+ETH value → 0
+Data → (clear the field first) copy the content of registration-transaction-data file from previous step
+Click Add transaction button
+image
+Finally, prepare a transaction to configure fee recipient:
+Disable the Custom data toggle
+image
+In the Contract Method Selector at the bottom, select the method (see image below):
+Enter the address 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8 in the Recipient address field
+Click Add transaction and Create Batch buttons
+image
+Click Send Batch
+image
+Click Sign
+Notify the other operators in your cluster to sign this transaction in the safe interface
+Once you are sure the transactions has been signed and executed, head over to SSV Scan (make sure Holesky network is selected), enter the multisig address to confirm validators have been registered.
+Verify Validators are Registered to the correct Node Operators
+Find and copy your cluster SAFE address
+image
+Paste Address in SSV Scan cluster search
+image
+Select the cluster ties to the SAFE address
+image
+Verify that the cluster has the newly registered validators associated with it and that all of the operator IDs are correct. Double check that each Operator node is online.
+image
