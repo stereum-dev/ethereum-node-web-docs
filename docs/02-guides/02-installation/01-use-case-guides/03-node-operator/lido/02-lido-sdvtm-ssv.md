@@ -81,11 +81,9 @@ Wait for confirmation from the Lido Team before proceeding further.
 
 ### Step 5: Create SAFE Multisig with your cluster
 
-Once all addresses are verified, the **cluster coordinator** will create a 5/7 threshold SAFE Multisig. The Multisig will use each member's individual manager address on Holesky. When the SAFE is created, the **cluster coordinator** should share SAFE Holesky URL for your cluster to review (tag them to make sure they can connect) and tag @kimonsh. This address will be your cluster’s representation in the Lido Node Operator Registry on Holesky. 
+Once all addresses are verified, the **cluster coordinator** will create a 5/7 threshold SAFE Multisig. The Multisig will use each member's individual manager address on Holesky. When the SAFE is created, the **cluster coordinator** should share SAFE Holesky URL for your cluster to review. This address will be your cluster’s representation in the Lido Node Operator Registry on Holesky.
 
-### Step 6: Register Your Cluster
 
-The Simple DVT Module Committee will add your cluster to the Lido Node Operator Registry using the SAFE multisig you provided.
 
 ## Lido x SSV Network Node Setup
 
@@ -93,49 +91,35 @@ The Simple DVT Module Committee will add your cluster to the Lido Node Operator 
 
 To begin setting up your node server with Stereum, start by logging into your server. Enter the server's IP address, username, and password, then proceed to log in. This step is critical for establishing a secure connection to your server where the node will be installed.
 
-![Step 7 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-1.png)
 
 ### Step 8: One-Click Installation
 
-Once logged in, look for the "One Click Installation" option which is recommended for beginners due to its simplicity and automated setup process. Select this to initiate the installation of your node with minimal hassle.
+Once logged in, look for the "One Click Installation" option which is recommended to its simplicity and automated setup process. Select this to initiate the installation of your node with minimal hassle.
 
-![Step 8 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-2.png)
 
 ### Step 9: Select Network and Module
 
 In the one-click installation section, select the "Lido x SSV SDVTM" option to participate as a Node operator for Lido. From the network dropdown, pick an Ethereum testnet like Holesky.
 
-![Step 9 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-3.png)
-
 ### Step 10: Set Data Path
 
 Ensure you set the appropriate data path for your server by selecting the right storage volume. This step affects your node's performance and stability. For services, Geth is common for execution, and for consensus, any client works well. Set the installation directory, usually `/opt/stereum`, to keep your services well-organized for easy management.
-
-![Step 10 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-4.png)
 
 ### Step 11: Set Synchronization Method
 
 The next step involves setting the synchronization method for your node clients. The recommended 'Checkpoint Sync' method allows quicker synchronization with the blockchain by starting from a known good state. Choose a trusted source for your checkpoint, which will influence the integrity and reliability of your node's data.
 
-![Step 11 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-5.png)
-
 ### Step 12: Confirm Installation Paths
 
 Finally, confirm the installation paths for each component you’re setting up on your server. This summary screen lists all the chosen services with their respective categories and installation paths, ensuring you have a clear overview of where each service will reside on the server. It’s important to verify that each path is correct to prevent any future operational issues.
-
-![Step 12 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-6.png)
 
 ### Step 13: Complete Installation
 
 Continue & wait for the installation to complete. This process might take some time depending on the server and network conditions.
 
-![Step 13 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-7.png)
-
 ### Step 14: Monitor Client Status
 
 After completing the initial setup, you will be directed to the node page. Here, monitor the status indicators next to each client, which will initially appear as small red dots. These dots will turn green once the clients are successfully turned on – the only exception will be the SSV Network Service as well as the SSV DKG Service. When this happens, proceed by clicking on the "Control" tab to manage your settings further.
-
-![Step 14 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-8.png)
 
 
 ### Step 15: Confirm Change Log Settings
@@ -146,8 +130,6 @@ As we are tracking missed block proposals, we need to increase the duration that
 ### Step 16: Synchronization Status
 
 On the "Control" page, keep an eye on the synchronization status of both blockchain clients. Typically, the Consensus Client synchronization completes before the Execution Client's process starts. It's important to allow both clients to fully synchronize to ensure your node operates correctly within the network.
-
-![Step 16 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-9.png)
 
 
 
