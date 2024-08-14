@@ -1,7 +1,7 @@
 name: 📚 Doc Enhancement
 description: Suggest an improvement or addition to existing documentation
 title: "[Doc-Enhancement]: "
-labels: ["doc-enhancement"]
+labels: ["doc enhancement"]
 body:
   - type: markdown
     attributes:
