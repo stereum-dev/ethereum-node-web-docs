@@ -110,10 +110,23 @@ jobs:
                     id
                   }
                 }
-              }' -f projectId=$PROJECT_ID -f projectItemId=$PROJECT_ITEM_ID -f fieldId=$MAIN_TASK_FIELD_ID -f value="Documentation"
+              }' -f projectId=$PROJECT_ID -f projectItemId=$PROJECT_ITEM_ID -f fieldId=$MAIN_TASK_FIELD_ID -f value="Documentation - Stereum"
           fi
 
           if [ -n "$SUB_TASK_FIELD_ID" ]; then
+            LABEL_NAME="${{ github.event.issue.labels[0].name }}"
+            if [[ "$LABEL_NAME" == "doc enhancement" ]]; then
+              SUB_TASK_NAME="Documentation - Stereum | Doc Enhancement"
+            elif [[ "$LABEL_NAME" == "fix" ]]; then
+              SUB_TASK_NAME="Documentation - Stereum | Fix"
+            elif [[ "$LABEL_NAME" == "new docs" ]]; then
+              SUB_TASK_NAME="Documentation - Stereum | New Docs"
+            elif [[ "$LABEL_NAME" == "translation" ]]; then
+              SUB_TASK_NAME="Documentation - Stereum | Translation"
+            else
+              SUB_TASK_NAME="Documentation - Stereum | General"
+            fi
+
             gh api graphql -f query='
               mutation($projectId: ID!, $projectItemId: ID!, $fieldId: ID!, $value: String!) {
                 updateProjectV2ItemFieldValue(input: {projectId: $projectId, itemId: $projectItemId, fieldId: $fieldId, value: {text: $value}}) {
@@ -121,7 +134,7 @@ jobs:
                     id
                   }
                 }
-              }' -f projectId=$PROJECT_ID -f projectItemId=$PROJECT_ITEM_ID -f fieldId=$SUB_TASK_FIELD_ID -f value="Stereum Documentation"
+              }' -f projectId=$PROJECT_ID -f projectItemId=$PROJECT_ITEM_ID -f fieldId=$SUB_TASK_FIELD_ID -f value="$SUB_TASK_NAME"
           fi
 
           if [ -n "$STATUS_FIELD_ID" ] && [ -n "$BACKLOG_OPTION_ID" ]; then

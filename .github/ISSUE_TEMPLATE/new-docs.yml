@@ -1,7 +1,7 @@
 name: 🆕 New Documentation
 description: Propose new documents or sections to be added
 title: "[New-Docs]: "
-labels: ["new-docs"]
+labels: ["new docs"]
 body:
   - type: markdown
     attributes:
