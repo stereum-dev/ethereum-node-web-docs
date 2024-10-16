@@ -30,8 +30,8 @@
 ## Exit all keys from a validator client
 
 1. Enter the Staking page in Stereum
-2. Make sure you have selected the correct validator client (if you should run multiple)
-3. Locate the validator client command to "Withdraw & Exit All Keys". Click it!
+2. Make sure you have selected the correct validator client (if you should run multiple on one server)
+3. Locate the validator client command to "Withdraw & Exit All Keys" and click it
 
 ![ExitAndWithdrawalMulti1](../../../../../../static/screenshots/guides/exit-and-withdrawal-key/exit-and-withdrawal-key-multi-1.png)
 
