@@ -87,7 +87,7 @@ Once your keys are generated, a screen will confirm that the keys are successful
 ## Part 3 / 4 Lido CSM Node Operator registration
 
 ### Step 17
-Acces the following link: https://csm.testnet.fi/. To participate as a Node Operator in the Community Staking Module, begin by clicking the I am a Node Operator button on the Lido CSM portal. This selection marks your intent to manage and operate nodes within the Lido on Ethereum protocol.
+Visit: [https://csm.testnet.fi/](csm.testnet.fi/?ref=stereum). To participate as a Node Operator in the Community Staking Module, begin by clicking the I am a Node Operator button on the Lido CSM portal. This selection marks your intent to manage and operate nodes within the Lido on Ethereum protocol.
 
 ![Step 19 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-17.png)
 
