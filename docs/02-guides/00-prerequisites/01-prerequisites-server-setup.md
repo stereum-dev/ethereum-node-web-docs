@@ -60,29 +60,29 @@ Enter the exact amount shown on the payment screen and confirm the transaction i
 ### Step 10
 After completing the transaction, click **"Click here after payment"** to verify and finalize the payment.
 
-![Step 10 Screenshot](../../../static/screenshots/guides/stereumplus/SP10.png)
+![Step 10 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP10.png)
 
 ## Part 3 / 6 | Verification and Final Steps
 
 ### Step 11
 Access your crypto wallet to confirm the transaction has been processed successfully.
 
-![Step 11 Screenshot](../../../static/screenshots/guides/stereumplus/SP11.png)
+![Step 11 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP11.png)
 
 ### Step 12
 Monitor your server setup progress and check for any notifications or errors that may appear.
 
-![Step 12 Screenshot](../../../static/screenshots/guides/stereumplus/SP12.png)
+![Step 12 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP12.png)
 
 ### Step 13
 Finalize the server setup by ensuring all configurations match your requirements.
 
-![Step 13 Screenshot](../../../static/screenshots/guides/stereumplus/SP13.png)
+![Step 13 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP13.png)
 
 ### Step 14
 Congratulations! Your Ethereum node is successfully set up. You can now start participating in the blockchain network with your configured node.
 
-![Step 14 Screenshot](../../../static/screenshots/guides/stereumplus/SP14.png)
+![Step 14 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP14.png)
 
 ## Local Ubuntu Server Setup
 
