@@ -4,7 +4,10 @@ import TabItem from '@theme/TabItem';
 
 # Intial Node Server Setup
 
-## Ubuntu Server Setup
+
+## StereumPlus Server 
+
+## Local Ubuntu Server Setup
 
 ### Create a Bootable USB Stick {#create-bootable-usb}
 
