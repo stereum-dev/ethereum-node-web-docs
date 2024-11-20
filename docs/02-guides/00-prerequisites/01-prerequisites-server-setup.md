@@ -6,6 +6,83 @@ import TabItem from '@theme/TabItem';
 
 
 ## StereumPlus Server 
+# StereumPlus Guide
+
+## Part 1 / 6 | Getting Started with StereumPlus
+
+### Step 1
+Begin by clicking **"Buy Server"** in the top menu to start your journey toward becoming a node runner with StereumPlus.
+
+![Step 1 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP1.png)
+
+### Step 2
+Select your preferred **provider** from the dropdown list. This step ensures you choose a service suited to your blockchain needs.
+
+![Step 2 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP2.png)
+
+### Step 3
+Choose a **plan** based on your server requirements. Compare the options for cores, RAM, and storage to pick what fits best.
+
+![Step 3 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP3.png)
+
+### Step 4
+Enter a unique **server name** to identify your node and click "Continue" to proceed.
+
+![Step 4 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP4.png)
+
+### Step 5
+Review your selected plan details, including price and specifications. Once satisfied, click **"Subscribe"** to continue.
+
+![Step 5 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP5.png)
+
+## Part 2 / 6 | Payment Process
+
+### Step 6
+Select your preferred **cryptocurrency** (e.g., Ethereum, USDC, or USDT) for payment, then click **"Choose"**.
+
+![Step 6 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP6.png)
+
+### Step 7
+A wallet address and payment amount will appear. Use the **QR code** or copy the wallet address to initiate the transaction.
+
+![Step 7 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP7.png)
+
+### Step 8
+Open your crypto wallet, select **"Send"**, and paste the wallet address provided by StereumPlus.
+
+![Step 8 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP8.png)
+
+### Step 9
+Enter the exact amount shown on the payment screen and confirm the transaction in your wallet.
+
+![Step 9 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP9.png)
+
+### Step 10
+After completing the transaction, click **"Click here after payment"** to verify and finalize the payment.
+
+![Step 10 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP10.png)
+
+## Part 3 / 6 | Verification and Final Steps
+
+### Step 11
+Access your crypto wallet to confirm the transaction has been processed successfully.
+
+![Step 11 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP11.png)
+
+### Step 12
+Monitor your server setup progress and check for any notifications or errors that may appear.
+
+![Step 12 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP12.png)
+
+### Step 13
+Finalize the server setup by ensuring all configurations match your requirements.
+
+![Step 13 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP13.png)
+
+### Step 14
+Congratulations! Your Ethereum node is successfully set up. You can now start participating in the blockchain network with your configured node.
+
+![Step 14 Screenshot](../../../static/screenshots/guides/stereumplus/SP_Screenshots/SP14.png)
 
 ## Local Ubuntu Server Setup
 
