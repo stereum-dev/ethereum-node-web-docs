@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 
 ## Cloud Server Setup
 
-### StereumPlus
+### Get started with [StereumPlus]()
 
 #### Step 1
 Begin by clicking **"Buy Server"** in the top menu to start your journey toward becoming a node runner with StereumPlus.
@@ -60,7 +60,7 @@ After completing the transaction, click **"Click here after payment"** to verify
 
 ![Step 10 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP10.png)
 
-### Part 3 / 6 | Verification and Final Steps
+### Verification and Final Steps
 
 #### Step 11
 Access your crypto wallet to confirm the transaction has been processed successfully.
@@ -79,7 +79,7 @@ Finalize the server setup by ensuring all configurations match your requirements
 
 #### Step 14
 Congratulations! Your Ethereum node is successfully set up. You can now start participating in the blockchain network with your configured node.
-
++
 ![Step 14 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP14.png)
 
 ## Local Server Setup
