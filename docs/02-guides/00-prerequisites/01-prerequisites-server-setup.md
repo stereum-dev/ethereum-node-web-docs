@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 
 ## Cloud Server Setup
 
-### Get started with [StereumPlus]()
+### Get started with [StereumPlus](https://stereumplus.com/)
 
 #### Step 1
 Begin by clicking **"Buy Server"** in the top menu to start your journey toward becoming a node runner with StereumPlus.
