@@ -51,35 +51,35 @@ Open your crypto wallet, select **"Send"**, and paste the wallet address provide
 ![Step 8 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP8.png)
 
 #### Step 9
-Enter the exact amount shown on the payment screen and confirm the transaction in your wallet.
+Copy the wallet address displayed on the StereumPlus payment page to ensure it matches what you paste into your crypto wallet.  
 
 ![Step 9 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP9.png)
 
 #### Step 10
-After completing the transaction, click **"Click here after payment"** to verify and finalize the payment.
+Enter the exact amount shown on the payment screen in your wallet and confirm the transaction.  
 
 ![Step 10 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP10.png)
 
 ### Verification and Final Steps
 
 #### Step 11
-Access your crypto wallet to confirm the transaction has been processed successfully.
+After initiating the transaction, confirm the payment in your crypto wallet. Review the transaction details and finalize the payment by clicking "Confirm" in your wallet interface.
 
 ![Step 11 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP11.png)
 
 #### Step 12
-Monitor your server setup progress and check for any notifications or errors that may appear.
+Once the payment is sent, return to the Stereum payment screen and click "Click here after payment" to confirm and finalize the payment process.
 
 ![Step 12 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP12.png)
 
 #### Step 13
-Finalize the server setup by ensuring all configurations match your requirements.
+Congrats! This indicates the payment was processed successfully, and your server is being set up. Click on "My Servers" to proceed.
 
 ![Step 13 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP13.png)
 
 #### Step 14
-Congratulations! Your Ethereum node is successfully set up. You can now start participating in the blockchain network with your configured node.
-+
+In the My Servers section, you can view your active servers. Verify that your new Ethereum node server is listed and ready to be used.
+
 ![Step 14 Screenshot](../../../static/screenshots/guides/stereumplus/order-process/SP14.png)
 
 ## Local Server Setup
