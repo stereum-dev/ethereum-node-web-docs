@@ -109,43 +109,43 @@ import TabItem from '@theme/TabItem';
 
   1. Visit the Ubuntu Server download page: [Ubuntu Server](https://ubuntu.com/download/server). Click on the version labeled 'Ubuntu Server 22.04 LTS' to download it.
   
-  ![Server Setup Step 1 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_1.png)
+  ![Server Setup Step 1 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_1.png)
   
   2. Download Rufus to create a bootable USB drive from this page: [Rufus](https://rufus.ie/).
   
-  ![Server Setup Step 2 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_2.png)
+  ![Server Setup Step 2 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_2.png)
   
   3. Open Rufus once it has downloaded.
   
-  ![Server Setup Step 3 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_3.png)
+  ![Server Setup Step 3 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_3.png)
   
   4. Insert your USB stick (minimum 4 GB) into the computer. Rufus should detect your USB stick automatically. If it doesn't appear, select it manually from the 'Device' dropdown menu in Rufus.
   
-  ![Server Setup Step 4 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_4.png)
+  ![Server Setup Step 4 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_4.png)
   
   5. In Rufus, next to 'Boot selection', click on the 'SELECT' button. Navigate to where you saved your Ubuntu Server download (the ISO file) and select it.
   
-  ![Server Setup Step 5 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_5.png)
+  ![Server Setup Step 5 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_5.png)
   
   6. Leave all other settings in Rufus at their default values. Press 'START' to begin creating your bootable USB.
   
-  ![Server Setup Step 6 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_6.png)
+  ![Server Setup Step 6 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_6.png)
   
   7. A warning may pop up about Rufus changing the ISO image mode. Confirm that you want to continue in 'ISO Image mode' by clicking 'OK'.
   
-  ![Server Setup Step 7 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_7.png)
+  ![Server Setup Step 7 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_7.png)
   
   8. The creation of the bootable USB will begin. This process may take around 10 minutes, depending on your computer's capabilities.
   
-  ![Server Setup Step 8 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_8.png)
+  ![Server Setup Step 8 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_8.png)
   
   9. Once Rufus confirms that the process is complete, you can close Rufus and remove your USB stick.
   
-  ![Server Setup Step 9 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_9.png)
+  ![Server Setup Step 9 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_9.png)
   
   10. Your Ubuntu Server bootable USB stick is now ready. Move on to the server setup by following the guide in Part 2 below.
   
-  ![Server Setup Step 10 Screenshot](../../../static/screenshots/guides/server-setup-windows/serverprep_10.png)
+  ![Server Setup Step 10 Screenshot](../../static/screenshots/guides/server-setup-windows/serverprep_10.png)
 
   </TabItem>
 
