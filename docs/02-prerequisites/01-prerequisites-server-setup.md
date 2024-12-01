@@ -90,6 +90,21 @@ import TabItem from '@theme/TabItem';
 
   ![Step 14 Screenshot](../../static/screenshots/guides/stereumplus/order-process/SP14.png)
 
+  #### Step 15  
+  You will receive your **server login credentials** via email. Use the provided information to log in securely.
+
+  ![Step 15 Screenshot](../../static/screenshots/guides/stereumplus/order-process/SP15.png)
+
+  #### Step 16  
+  Open the Stereum Launcher, input the **IP address, username, and password**, and log in to your server to access it.
+
+  ![Step 16 Screenshot](../../static/screenshots/guides/stereumplus/order-process/SP16.png)
+
+  #### Step 17  
+  Upon first login, you'll be prompted to change your password. Choose a secure password and save it securely.
+
+  ![Step 17 Screenshot](../../static/screenshots/guides/stereumplus/order-process/SP17.png)
+
   </TabItem>
 </Tabs>
 
