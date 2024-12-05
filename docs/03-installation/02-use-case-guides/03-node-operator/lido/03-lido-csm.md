@@ -65,7 +65,7 @@ Enter how many validator keys you'd like to create and set a strong password for
 ![Step 13 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-22.png)
 
 ### Step 13
-Now for the Withdrawal Address, enter the Withdrawal adress of the Lido Holesky CSM Smart Contract (Withdrawal: 0xF0179dEC45a37423EAD4FaD5fCb136197872EAd9). You can find it under this link: https://dvt-homestaker.stakesaurus.com/bonded-validators-setup/lido-csm/generating-csm-keystores.
+Now for the Withdrawal Address, enter the Withdrawal adress of the Lido Holesky CSM Smart Contract (Mainnet: 0xB9D7934878B5FB9610B3fE8A5e441e8fad7E293f | Holesky Testnet: 0xF0179dEC45a37423EAD4FaD5fCb136197872EAd9). You can find it under this link: https://dvt-homestaker.stakesaurus.com/bonded-validators-setup/lido-csm/generating-csm-keystores.
 
 ![Step 14 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-13.png)
 
@@ -87,7 +87,7 @@ Once your keys are generated, a screen will confirm that the keys are successful
 ## Part 3 / 4 Lido CSM Node Operator registration
 
 ### Step 17
-Visit: [https://csm.testnet.fi/](csm.testnet.fi/?ref=stereum). To participate as a Node Operator in the Community Staking Module, begin by clicking the I am a Node Operator button on the Lido CSM portal. This selection marks your intent to manage and operate nodes within the Lido on Ethereum protocol.
+Visit: [CSM - Mainnet](https://csm.lido.fi/?ref=stereum) [CSM - Holesky Testnet](https://csm.testnet.fi/?ref=stereum) to access the page. To participate as a Node Operator in the Community Staking Module, begin by clicking the I am a Node Operator button on the Lido CSM portal. This selection marks your intent to manage and operate nodes within the Lido on Ethereum protocol.
 
 ![Step 19 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-17.png)
 
@@ -135,7 +135,7 @@ Once you've opened the node configuration and can view all three clients, procee
 ![Step 27 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-26.png)
 
 ### Step 26
-Before restarting your node, recall that you will have to use a designated fee recipient address (0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. You can find the necessary details on setting this up at Lido's specific guidance page: https://dvt-homestaker.stakesaurus.com/bonded-validators-setup/lido-csm/running-a-separate-vc-service#configure-the-separate-vc-service. After updating this setting in your node configuration, click on the Confirm & Restart button to apply the new configurations and restart the node.
+Before restarting your node, recall that you will have to use a designated fee recipient address (Mainnet: 0x388C818CA8B9251b393131C08a736A67ccB19297 | Holesky testnet: 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. After updating this setting in your validator client configuration, click on the Confirm & Restart button to apply the new configurations and restart the client.
 
 ![Step 28 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-27.png)
 
