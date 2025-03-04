@@ -54,73 +54,73 @@ On the "Control" page, keep an eye on the synchronization status of both blockch
 
 Click on the SSV Network icon located at the top of the interface to access specific network features.
 
-![Step 11 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-10.png)
+![Step 11 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-10.png)
 
 ### Step 12: Generate Encrypted Operator Key Pair
 
 In the SSV Network options, click "Generate" on the "Generate Encrypted Pair" section to secure your operator node with an encrypted key pair.
 
-![Step 12 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-11.png)
+![Step 12 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-11.png)
 
 ### Step 13: Set Operator Password
 
 Enter a strong password to encrypt your operator key pair, then click "Generate". Download the backup of the encryption details for safekeeping.
 
-![Step 13 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-12.png)
+![Step 13 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-12.png)
 
 ### Step 14: Enter and Confirm Your Password
 
 After setting your password for the encrypted operator key, click "Confirm" to secure the encryption settings and safeguard your key.
 
-![Step 14 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-13.png)
+![Step 14 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-13.png)
 
 ### Step 15: Confirm Warning
 
 Acknowledge the warning by clicking "Confirm" to ensure that you have noted your password and understand the importance of keeping your backup secure.
 
-![Step 15 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-14.png)
+![Step 15 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-14.png)
 
 ### Step 16: Download Backup
 
 Download a backup of the generated private key and password you used for encryption. This file should be kept in a safe location as it is critical for recovery and security.
 
-![Step 16 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-15.png)
+![Step 16 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-15.png)
 
 ### Step 17: Join as Operator
 
 Once on the SSV Network website, click the "Join As Operator" button to participate as an operator, which involves managing validators and contributing to network operations.
 
-![Step 17 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-18.png)
+![Step 17 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-18.png)
 
 ### Step 18: Register as an Operator
 
 After clicking "Join As Operator", select "Register Operator" to proceed with the registration process. This involves providing necessary details and your operator key to officially register as an operator on the network.
 
-![Step 18 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-19.png)
+![Step 18 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-19.png)
 
 ### Step 19: Approve Connection
 
 On the SSV Network site, approve the connection request, which allows the site to interact with your digital wallet (for example MetaMask) for necessary transactions and authorizations.
 
-![Step 19 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-20.png)
+![Step 19 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-20.png)
 
 ### Step 20: Unlock Your Ethereum Wallet
 
 Unlock the Ethereum wallet of your choice by entering your password to authorize further operations and validate your identity as part of the operator registration process.
 
-![Step 20 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-21.png)
+![Step 20 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-21.png)
 
 ### Step 21: Connect to Your Ethereum Wallet
 
 Finally, in your Ethereum wallet (for example, MetaMask), select the specific account you wish to use for the SSV Network operations and click "Connect" to establish the connection and complete the setup.
 
-![Step 21 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-22.png)
+![Step 21 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-22.png)
 
 ### Step 22: Paste Your Public Operator Key
 
 Copy your Public Operator Key from the Stereum app and paste it into the field shown in your browser. This key allows you to be uniquely identified within the network, enabling other validators to select you as their operator.
 
-![Step 22 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-23.png)
+![Step 22 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-23.png)
 
 ### Step 23: Set Operator Fee
 
@@ -138,7 +138,7 @@ A confirmation request will appear in your Ethereum wallet of choice, for exampl
 
 Once confirmed, you will see a transaction hash. You can click on this hash to view the transaction details on Etherscan or another blockchain explorer.
 
-![Step 26 Screenshot](../../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-27.png)
+![Step 26 Screenshot](../../../../../static/screenshots/guides/ssv-network-node-operator/ssv-network-node-operator-27.png)
 
 ## Permissioned Operator Configuration
 

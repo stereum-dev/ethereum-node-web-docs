@@ -11,4 +11,4 @@ You can find this information here: [Launcher Logs](../01-technical/02-launcher-
 
 ### How do I securely migrate keys?
 
-You can find a simple manual to follow here: [Migrate Keys](../02-guides/04-operation/migrate-keys.md)
+You can find a simple manual to follow here: [Migrate Keys](../05-operation/migrate-keys.md)

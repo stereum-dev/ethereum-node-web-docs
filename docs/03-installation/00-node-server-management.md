@@ -66,19 +66,19 @@ When you launch Stereum, the main window is split into two panels:
 
 When you start Stereum for the first time or to set up a new node, you'll encounter the Welcome Screen, which presents you with three primary installation options:
 
-### [One Click Installation](docs/02-guides/02-installation/00-installation-options/01-one-click-installation.md)
+### [One Click Installation](../03-installation/01-installation-options/01-one-click-installation.md)
 
 - This option is designed for users who want a quick and hassle-free node setup.
 - It will install a preset of the Stereum server with default settings, which are suitable for most users.
 - To proceed with this installation, simply click the `One Click Installation` button, and follow the prompts to select your desired options and configurations.
 
-### [Custom Installation](docs/02-guides/02-installation/00-installation-options/02-custom-installation.md)
+### [Custom Installation](../03-installation/01-installation-options/02-custom-installation.md)
 
 - For users with specific requirements or those who wish to configure advanced settings.
 - Custom Installation allows you to select different components, configure network settings, and set up monitoring tools according to your preferences.
 - To start, click on `Custom Installation`. After installation, you can customize the node settings via the "Edit Node" page.
 
-### [Config Import](docs/02-guides/02-installation/00-installation-options/03-config-import.md)
+### [Config Import](../03-installation/01-installation-options/03-config-import.md)
 
 - If you have a pre-existing configuration file from another Stereum setup, you can import it to replicate the same settings.
 - This is ideal when moving to a new machine or restoring a setup.
