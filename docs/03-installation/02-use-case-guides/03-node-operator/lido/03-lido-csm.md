@@ -116,61 +116,82 @@ Finally, verify the status of the key deposited for you.
 
 ![Step 25 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-24.png)
 
-
 ### Step 23
 When you imported, now you can setup the Validator Ejector service correctly. Enter the settings of the service and put in your operator ID from the Lido dashboard
 
 ![Step 25.1 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-25.1.png)
 
+### Step 24
+Navigate to the Node page and locate the CSM Monitoring service. Click on the settings icon to open its configuration panel.
+
+![Step 26 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-24+.png)
+
+### Step 25
+In the configuration panel, enable Expert Mode and find the NO_ID field. Enter your Operator ID and confirm the changes.
+
+![Step 27 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-25+.png)
+
 ## Part 4 / 4 Validator Key Import
 
-### Step 24
+### Step 26
 In Stereum, after completing the initial setup, you will be directed to the node page. Here, you can view and manage your node's configuration. Click on the "Open" button next to the setup you wish to configure or review.
 
 ![Step 26 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-25.png)
 
-### Step 25
+### Step 27
 Once you've opened the node configuration and can view all three clients, proceed by clicking on the settings button for the validator client. This will allow you to adjust or verify specific settings for your validator operations.
 
 ![Step 27 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-26.png)
 
+<<<<<<< HEAD:docs/02-guides/02-installation/01-use-case-guides/03-node-operator/lido/03-lido-csm.md
+### Step 28
+Before restarting your node, recall that you will have to use a designated fee recipient address (0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. You can find the necessary details on setting this up at Lido's specific guidance page: https://dvt-homestaker.stakesaurus.com/bonded-validators-setup/lido-csm/running-a-separate-vc-service#configure-the-separate-vc-service. After updating this setting in your node configuration, click on the Confirm & Restart button to apply the new configurations and restart the node.
+=======
 ### Step 26
 Before restarting your node, recall that you will have to use a designated fee recipient address (Mainnet: 0x388C818CA8B9251b393131C08a736A67ccB19297 | Holesky Testnet: 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. After updating this setting in your validator client configuration, click on the Confirm & Restart button to apply the new configurations and restart the client.
+>>>>>>> e99b39949e9d2658e1dc32e3ad92fa250ecac372:docs/03-installation/02-use-case-guides/03-node-operator/lido/03-lido-csm.md
 
 ![Step 28 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-27.png)
 
-### Step 27
+### Step 29
 Once the validator client restarts, navigate to the Staking tab. Here, you can begin the process of inserting your validator key by clicking on the Click or Drag to Insert Key area.
 
 ![Step 29 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-28.png)
 
-### Step 28
+### Step 30
 Select and import the validator key you have generated with the Wagyu generator. Ensure you choose the correct file that corresponds with your validator client settings.
 
 ![Step 30 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-29.png)
 
-### Step 29
+### Step 31
 Approve the validator client you will use by selecting it.
 
 ![Step 31 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-30.png)
 
-### Step 30
+### Step 32
 After selecting the validator key, you will be prompted to enter the password that you set up during the key generation in Wagyu. Input your password to authenticate and finalize the import process.
 
 ![Step 32 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-31.png)
 
-### Step 31
+### Step 33
 After importing your validator key, a confirmation screen will appear. If Doppelgänger Protection is enabled, you'll have the option to import with a Slashing Protection Database. Select 'Yes' to proceed with enhanced security measures or 'No' if you choose to bypass this step. Finally, click 'Import' to complete the setup of your validator key.
 
 ![Step 33 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-32.png)
 
-### Step 32
+### Step 34
 After selecting the "Import" option, you should see a confirmation that the validator key has been successfully imported. This will confirm the validator key's registration in the system.
 
 ![Step 34 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-34.png)
 
-### Step 33
+### Step 35
 Once the key is imported, navigate to the "Staking" tab. You should see the validator key appear under the node tab, indicating that the system recognizes your validator.
 
 ![Step 35 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-33.png)
+
+### Step 36
+Navigate to the Control page and open the dropdown menu. Select Lido CSM Operator to access the monitoring service dashboard.
+
+![Step 36 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-34+.png)
+
+![Step 37 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-34++.png)
 
