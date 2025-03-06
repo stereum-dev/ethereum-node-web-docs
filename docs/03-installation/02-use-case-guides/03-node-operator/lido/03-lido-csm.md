@@ -124,12 +124,12 @@ When you imported, now you can setup the Validator Ejector service correctly. En
 ### Step 24
 Navigate to the Node page and locate the CSM Monitoring service. Click on the settings icon to open its configuration panel.
 
-![Step 26 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-24+.png)
+![Step 26 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-24.1.png)
 
 ### Step 25
 In the configuration panel, enable Expert Mode and find the NO_ID field. Enter your Operator ID and confirm the changes.
 
-![Step 27 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-25+.png)
+![Step 27 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-25.2.png)
 
 ## Part 4 / 4 Validator Key Import
 
