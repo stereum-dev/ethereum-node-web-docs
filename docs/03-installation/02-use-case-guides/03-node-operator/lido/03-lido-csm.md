@@ -186,7 +186,7 @@ Once the key is imported, navigate to the "Staking" tab. You should see the vali
 ### Step 36
 Navigate to the Control page and open the dropdown menu. Select Lido CSM Operator to access the monitoring service dashboard.
 
-![Step 36 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-34+.png)
+![Step 36 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-35.png)
 
-![Step 37 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-34++.png)
+![Step 37 Screenshot](../../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-36.png)
 
