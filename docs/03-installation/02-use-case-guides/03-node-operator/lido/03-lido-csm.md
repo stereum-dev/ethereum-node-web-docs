@@ -143,13 +143,8 @@ Once you've opened the node configuration and can view all three clients, procee
 
 ![Step 27 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-26.png)
 
-<<<<<<< HEAD:docs/02-guides/02-installation/01-use-case-guides/03-node-operator/lido/03-lido-csm.md
-### Step 28
-Before restarting your node, recall that you will have to use a designated fee recipient address (0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. You can find the necessary details on setting this up at Lido's specific guidance page: https://dvt-homestaker.stakesaurus.com/bonded-validators-setup/lido-csm/running-a-separate-vc-service#configure-the-separate-vc-service. After updating this setting in your node configuration, click on the Confirm & Restart button to apply the new configurations and restart the node.
-=======
 ### Step 26
 Before restarting your node, recall that you will have to use a designated fee recipient address (Mainnet: 0x388C818CA8B9251b393131C08a736A67ccB19297 | Holesky Testnet: 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. After updating this setting in your validator client configuration, click on the Confirm & Restart button to apply the new configurations and restart the client.
->>>>>>> e99b39949e9d2658e1dc32e3ad92fa250ecac372:docs/03-installation/02-use-case-guides/03-node-operator/lido/03-lido-csm.md
 
 ![Step 28 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-27.png)
 
