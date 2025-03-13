@@ -24,12 +24,12 @@ Ensure you set the appropriate data path for your server by selecting the right 
 ### Step 5
 The next step involves setting the synchronization method for your node clients. The recommended 'Checkpoint Sync' method allows a quicker synchronization with the blockchain by starting from a known good state. Choose a trusted source for your checkpoint, which will influence the integrity and reliability of your node's data.
 
-![Step 5 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-5.png)
+![Step 6 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-6.png)
 
 ### Step 6
-Choose from a range of block relays available for your node. Each relay offers different performance characteristics and geographical distribution. Select the block relays that best fit your operational requirements and expected validator performance.
+Keep the relay selection as is, as these are the necessary relays mandated to run Lido CSM.
 
-![Step 6 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-6.png)
+![Step 5 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-5.png)
 
 ### Step 7
 Finally, you’ll confirm the installation paths for each component you’re setting up on your server. This summary screen lists all the chosen services with their respective categories and installation paths, ensuring you have a clear overview of where each service will reside on the server. It’s important to verify that each path is correct to prevent any future operational issues.
