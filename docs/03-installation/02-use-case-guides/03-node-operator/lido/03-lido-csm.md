@@ -144,7 +144,7 @@ Once you've opened the node configuration and can view all three clients, procee
 ![Step 27 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-26.png)
 
 ### Step 26
-Before restarting your node, recall that you will have to use a designated fee recipient address (Mainnet: 0x388C818CA8B9251b393131C08a736A67ccB19297 | Holesky Testnet: 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. After updating this setting in your validator client configuration, click on the Confirm & Restart button to apply the new configurations and restart the client.
+Before restarting your node, recall that you will have to use a designated fee recipient address (Mainnet: 0x388C818CA8B9251b393131C08a736A67ccB19297 | Holesky Testnet: 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. As Stereum should automatically set this, make sure to check this setting in your validator client configuration for the right address. 
 
 ![Step 28 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-27.png)
 
