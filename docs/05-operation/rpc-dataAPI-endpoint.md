@@ -1,6 +1,6 @@
-# RPC / Data API Endpoin
+# RPC / Data API Endpoint
 
-## Part 1 / 1 | RPC & Data API Setup
+## RPC & Data API Setup
 
 ### Step 1
 To begin, launch the Stereum application and access the Server Management screen. Enter your server name, IP address, SSH port, username, and password, then click LOGIN to connect securely to your node.
