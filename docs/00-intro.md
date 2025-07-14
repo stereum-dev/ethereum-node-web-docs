@@ -2,11 +2,11 @@
 title: Welcome
 ---
 
-# Welcome to the Documentation...
+
 
 ![Stereum Ethereum Node Setup & Manager](../static/img/branding/stereum-social-card.png) 
 
-## ...and thank you for choosing Stereum 🍄
+# Welcome to the Documentation and thank you for choosing Stereum 
 
 We're thrilled to have you onboard and are confident that Stereum will enhance your experience with Ethereum. This documentation is designed to provide you with all the necessary information to successfully utilize Stereum for managing Ethereum nodes.
 
@@ -14,9 +14,12 @@ Whether you're new to Stereum or looking to dive deeper into its features, you'r
 
 ### What You Will Find Here
 
-- **Technical Details**: Dive into the technicalities of Stereum.
 - **Detailed Setup Guides**: Step-by-step tutorials for straightforward node setup and operations.
+  - **Vanilla Staking**: [Go to guide](../docs/03-installation/02-use-case-guides/03-node-operator/lido/03-lido-csm.md)
+  - **Lido Community Staking Module(CSM)**:  [Go to guide](../docs/installation/tutorial-guides/node-operation/lido/lido-csm)
+  - **Node Operation Protocols**:  [Go to guide](../docs/category/node-operation-protocols)
 - **Best Practices**: Tips and tricks for optimal node performance and security.
+- **Technical Details**: Dive into the technicalities of Stereum.
 - **Troubleshooting**: Solutions to common issues and how to seek further assistance.
 - **Glossary**: Get familiar with common terms and concepts in Ethereum and Stereum with our glossary.
 - **Community Contributions**: Learn from the wealth of knowledge shared by our community.
