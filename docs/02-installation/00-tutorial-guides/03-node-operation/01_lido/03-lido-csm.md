@@ -1,5 +1,7 @@
 # Lido CSM Operator Guide
 
+The [Community Staking Module](https://lido.fi/csm) (CSM) is a Lido staking module with permissionless entry that allows any operator to run validators with less ETH (1.3–2.4 ETH per validator) and improved capital efficiency compared to Ethereum solo staking.
+
 ## Part 1 / 4 | Node Setup
 ### Step 1
 To begin setting up your server for crypto transactions with Stereum, start by logging into your server management system. Enter the server's IP address, username, and password, then proceed to log in. This step is critical for establishing a secure connection to your server where the node will be installed.
@@ -12,7 +14,7 @@ Once logged in, navigate to the server configuration dashboard. Look for the "On
 ![Step 2 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-2.png)
 
 ### Step 3
-In the one-click installation section, choose your use case and network. For this guide, select the "CSM Node Operator" option to participate in blockchain validation and earning rewards. From the network dropdown, pick an Ethereum testnet like Holesky.
+In the one-click installation section, choose your use case and network. For this guide, select the "CSM Node Operator" option to participate in blockchain validation and earning rewards. From the network dropdown, select Hoodi Testnet for testing or Ethereum Mainnet.
 
 ![Step 3 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-3.png)
 
@@ -27,7 +29,7 @@ The next step involves setting the synchronization method for your node clients.
 ![Step 6 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-6.png)
 
 ### Step 6
-Keep the relay selection as is, as these are the necessary relays mandated to run Lido CSM.
+Keep the relay selection as is, as these are the necessary relays mandated to run Lido CSM. For more information on MEV and relay requirements in CSM, check the [Lido CSM Docs](https://operatorportal.lido.fi/modules/community-staking-module#block-99fed4cdcc7641f1af431ddb8afafbec).
 
 ![Step 5 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-5.png)
 
@@ -65,7 +67,7 @@ Enter how many validator keys you'd like to create and set a strong password for
 ![Step 13 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-22.png)
 
 ### Step 13
-Now for the Withdrawal Address, enter the Withdrawal adress of the Lido Holesky CSM Smart Contract (Mainnet: 0xB9D7934878B5FB9610B3fE8A5e441e8fad7E293f | Holesky Testnet: 0xF0179dEC45a37423EAD4FaD5fCb136197872EAd9). You can find it under this link: https://dvt-homestaker.stakesaurus.com/bonded-validators-setup/lido-csm/generating-csm-keystores.
+Now for the Withdrawal Address, enter the Lido Withdrawal Vault address (Mainnet: 0xB9D7934878B5FB9610B3fE8A5e441e8fad7E293f | Hoodi Testnet: 0x4473dCDDbf77679A643BdB654dbd86D67F8d32f2). You can find it under this link: https://docs.lido.fi/run-on-lido/csm/generating-validator-keys.
 
 ![Step 14 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-13.png)
 
@@ -87,7 +89,7 @@ Once your keys are generated, a screen will confirm that the keys are successful
 ## Part 3 / 4 Lido CSM Node Operator registration
 
 ### Step 17
-Visit: [CSM - Mainnet](https://csm.lido.fi/?ref=stereum) [CSM - Holesky Testnet](https://csm.testnet.fi/?ref=stereum) to access the page. To participate as a Node Operator in the Community Staking Module, begin by clicking the I am a Node Operator button on the Lido CSM portal. This selection marks your intent to manage and operate nodes within the Lido on Ethereum protocol.
+Visit: [CSM - Mainnet](https://csm.lido.fi/?ref=stereum) [CSM - Hoodi Testnet](https://csm.testnet.fi/?ref=stereum) to access the page. To participate as a Node Operator in the Community Staking Module, begin by clicking the I am a Node Operator button on the Lido CSM portal. This selection marks your intent to manage and operate nodes within the Lido on Ethereum protocol.
 
 ![Step 19 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-17.png)
 
@@ -143,8 +145,8 @@ Once you've opened the node configuration and can view all three clients, procee
 
 ![Step 27 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-26.png)
 
-### Step 26
-Before restarting your node, recall that you will have to use a designated fee recipient address (Mainnet: 0x388C818CA8B9251b393131C08a736A67ccB19297 | Holesky Testnet: 0xE73a3602b99f1f913e72F8bdcBC235e206794Ac8) as a CSM operator, which is a key configuration for receiving transaction fees. As Stereum should automatically set this, make sure to check this setting in your validator client configuration for the right address. 
+### Step 28
+Before restarting your node, recall that you will have to use a designated fee recipient address (Mainnet: 0x388C818CA8B9251b393131C08a736A67ccB19297 | Hoodi Testnet: 0x9b108015fe433F173696Af3Aa0CF7CDb3E104258) as a CSM operator, which is a key configuration for receiving transaction fees. As Stereum should automatically set this, make sure to check this setting in your validator client configuration for the right address. 
 
 ![Step 28 Screenshot](../../../../../static/screenshots/guides/lido-csm-operator/lido-csm-27.png)
 
